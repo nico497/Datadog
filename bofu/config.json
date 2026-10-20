@@ -1,0 +1,53 @@
+{
+  "title": "Bottom-of-funnel content tracker",
+  "niche": "Cloud monitoring, observability, and application performance management (APM) software",
+  "you": "Datadog",
+  "competitors": [
+    "New Relic",
+    "Dynatrace",
+    "Splunk",
+    "Grafana Labs",
+    "Elastic Observability",
+    "Sumo Logic"
+  ],
+  "vendors": {
+    "New Relic": "new ?relic",
+    "Dynatrace": "dynatrace",
+    "Splunk": "splunk",
+    "Grafana Labs": "grafana",
+    "Elastic Observability": "elastic (observability|stack)|elasticsearch",
+    "Sumo Logic": "sumo ?logic",
+    "Datadog": "datadog",
+    "Prometheus": "prometheus",
+    "Honeycomb": "honeycomb\\.io|honeycomb io",
+    "Chronosphere": "chronosphere",
+    "LogicMonitor": "logicmonitor",
+    "AppDynamics": "appdynamics",
+    "SigNoz": "signoz",
+    "Better Stack": "better ?stack",
+    "VictoriaMetrics": "victoriametrics",
+    "Lightstep": "lightstep"
+  },
+  "audiences": [
+    ["Application performance monitoring", "\\bapm\\b|application performance"],
+    ["Infrastructure monitoring", "infrastructure monitoring"],
+    ["Log management", "log management|log analytics"],
+    ["Distributed tracing", "distributed tracing|trace"],
+    ["Cloud security monitoring", "cloud security|\\bsiem\\b"],
+    ["Kubernetes and container monitoring", "kubernetes|container monitoring|\\bk8s\\b"],
+    ["Incident management and alerting", "incident management|on.?call|alerting"],
+    ["Real user monitoring", "real user monitoring|\\brum\\b"],
+    ["Synthetic monitoring", "synthetic monitoring"],
+    ["Network monitoring", "network monitoring|network performance"],
+    ["Serverless monitoring", "serverless monitoring|serverless observability"],
+    ["AI and LLM observability", "llm observability|ai observability|model monitoring"],
+    ["Cost and usage optimization", "cost optimization|cloud cost|usage.?based"],
+    ["Open source and OpenTelemetry", "opentelemetry|open ?source observability"],
+    ["Database monitoring", "database monitoring"],
+    ["SRE and reliability", "\\bsre\\b|site reliability|reliability engineering"],
+    ["Pricing and plans", "pricing|per host pricing|usage.?based pricing"],
+    ["Comparisons and alternatives", "alternative|vs\\.|comparison"],
+    ["Integrations and ecosystem", "integration|\\bapi\\b|marketplace"],
+    ["Product updates and releases", "product update|new feature|launch"]
+  ]
+}
