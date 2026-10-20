@@ -1,0 +1,3161 @@
+{
+ "meta": {
+  "title": "Bottom-of-funnel content tracker",
+  "niche": "Cloud monitoring, observability, and application performance management (APM) software",
+  "you": "Datadog",
+  "generated": "2026-10-20T02:39:55+00:00",
+  "state_updated": "2026-10-20T02:31:19+00:00",
+  "repo": "nico497/Datadog"
+ },
+ "types": [
+  [
+   "vs_you",
+   "Us vs. them"
+  ],
+  [
+   "alt",
+   "Alternatives"
+  ],
+  [
+   "switch",
+   "Switching and migration"
+  ],
+  [
+   "pricing",
+   "Rival pricing breakdowns"
+  ],
+  [
+   "vs_rivals",
+   "Rival vs. rival"
+  ],
+  [
+   "best",
+   "Best-of and roundups"
+  ],
+  [
+   "case",
+   "Case and customer stories"
+  ]
+ ],
+ "sites": [
+  {
+   "name": "Datadog",
+   "tracked": 3158,
+   "considered": 2896,
+   "own_pricing": "https://www.datadoghq.com/pricing/",
+   "hubs": [
+    "https://www.datadoghq.com/customers/"
+   ]
+  },
+  {
+   "name": "New Relic",
+   "tracked": 2631,
+   "considered": 1255,
+   "own_pricing": null,
+   "hubs": []
+  },
+  {
+   "name": "Dynatrace",
+   "tracked": 3750,
+   "considered": 2963,
+   "own_pricing": "https://www.dynatrace.com/pricing/",
+   "hubs": [
+    "https://www.dynatrace.com/customers/",
+    "https://www.dynatrace.com/tw/customers/",
+    "https://www.dynatrace.com/cn/customers/"
+   ]
+  },
+  {
+   "name": "Splunk",
+   "tracked": 1810,
+   "considered": 0,
+   "own_pricing": null,
+   "hubs": []
+  },
+  {
+   "name": "Grafana Labs",
+   "tracked": 22212,
+   "considered": 2268,
+   "own_pricing": "https://grafana.com/pricing/",
+   "hubs": []
+  },
+  {
+   "name": "Elastic Observability",
+   "tracked": 40,
+   "considered": 40,
+   "own_pricing": null,
+   "hubs": []
+  },
+  {
+   "name": "Sumo Logic",
+   "tracked": 1893,
+   "considered": 1307,
+   "own_pricing": "https://www.sumologic.com/pricing",
+   "hubs": [
+    "https://www.sumologic.com/customers",
+    "https://www.sumologic.com/resources/case-studies"
+   ]
+  }
+ ],
+ "vendors": [
+  "New Relic",
+  "Dynatrace",
+  "Splunk",
+  "Grafana Labs",
+  "Elastic Observability",
+  "Sumo Logic",
+  "Datadog",
+  "Prometheus",
+  "Honeycomb",
+  "Chronosphere",
+  "LogicMonitor",
+  "AppDynamics",
+  "SigNoz",
+  "Better Stack",
+  "VictoriaMetrics",
+  "Lightstep"
+ ],
+ "excluded": {
+  "templated pages": 24286,
+  "webinars, glossary, events and category pages": 426,
+  "translated pages": 53
+ },
+ "pages": [
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/accuweather/",
+   "path": "/case-studies/accuweather",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/acm/",
+   "path": "/case-studies/acm",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/agnc/",
+   "path": "/case-studies/agnc",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/aha/",
+   "path": "/case-studies/aha",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/alpiq/",
+   "path": "/case-studies/alpiq",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/andsafe/",
+   "path": "/case-studies/andsafe",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/appfolio/",
+   "path": "/case-studies/appfolio",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/arcxp/",
+   "path": "/case-studies/arcxp",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/arcxp-2023/",
+   "path": "/case-studies/arcxp-2023",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/arcxp-2026/",
+   "path": "/case-studies/arcxp-2026",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/arcxp-incidentmgmt/",
+   "path": "/case-studies/arcxp-incidentmgmt",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/arisglobal/",
+   "path": "/case-studies/arisglobal",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/artemis/",
+   "path": "/case-studies/artemis",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/asana/",
+   "path": "/case-studies/asana",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/askable/",
+   "path": "/case-studies/askable",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/assemblyai/",
+   "path": "/case-studies/assemblyai",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/atem/",
+   "path": "/case-studies/atem",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/atolio/",
+   "path": "/case-studies/atolio",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/auth0/",
+   "path": "/case-studies/auth0",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/automotus-trek10/",
+   "path": "/case-studies/automotus-trek10",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/aws-cvent/",
+   "path": "/case-studies/aws-cvent",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/aws-mercadolibre/",
+   "path": "/case-studies/aws-mercadolibre",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/axis-communications/",
+   "path": "/case-studies/axis-communications",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/baz/",
+   "path": "/case-studies/baz",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/bazaarvoice/",
+   "path": "/case-studies/bazaarvoice",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/berkeley-lab/",
+   "path": "/case-studies/berkeley-lab",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/betterment/",
+   "path": "/case-studies/betterment",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/birdie/",
+   "path": "/case-studies/birdie",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/blue-state-digital/",
+   "path": "/case-studies/blue-state-digital",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/booksy/",
+   "path": "/case-studies/booksy",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/braze/",
+   "path": "/case-studies/braze",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/cambia-health-solutions/",
+   "path": "/case-studies/cambia-health-solutions",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/captur/",
+   "path": "/case-studies/captur",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/charm/",
+   "path": "/case-studies/charm",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/circleci/",
+   "path": "/case-studies/circleci",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/cleo-health/",
+   "path": "/case-studies/cleo-health",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/cmd/",
+   "path": "/case-studies/cmd",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/collective/",
+   "path": "/case-studies/collective",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/compass/",
+   "path": "/case-studies/compass",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/complyt/",
+   "path": "/case-studies/complyt",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/contentful/",
+   "path": "/case-studies/contentful",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/coop-norge/",
+   "path": "/case-studies/coop-norge",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/cvent/",
+   "path": "/case-studies/cvent",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/delfia/",
+   "path": "/case-studies/delfia",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/delightroom/",
+   "path": "/case-studies/delightroom",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/delta-dental/",
+   "path": "/case-studies/delta-dental",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/devsisters/",
+   "path": "/case-studies/devsisters",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/docgo/",
+   "path": "/case-studies/docgo",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/dust/",
+   "path": "/case-studies/dust",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/ea-dice/",
+   "path": "/case-studies/ea-dice",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/eight-sleep/",
+   "path": "/case-studies/eight-sleep",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/fieldex/",
+   "path": "/case-studies/fieldex",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/fintonic/",
+   "path": "/case-studies/fintonic",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/fintool/",
+   "path": "/case-studies/fintool",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/forbes/",
+   "path": "/case-studies/forbes",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/fundbox/",
+   "path": "/case-studies/fundbox",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/getgo/",
+   "path": "/case-studies/getgo",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/glovo/",
+   "path": "/case-studies/glovo",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/glovo-dbm/",
+   "path": "/case-studies/glovo-dbm",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/go1/",
+   "path": "/case-studies/go1",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/gs-retail/",
+   "path": "/case-studies/gs-retail",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/hashicorp/",
+   "path": "/case-studies/hashicorp",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/ibnsina-pharma/",
+   "path": "/case-studies/ibnsina-pharma",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/icf/",
+   "path": "/case-studies/icf",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/itau-unibanco/",
+   "path": "/case-studies/itau-unibanco",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/jitta/",
+   "path": "/case-studies/jitta",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/kevel/",
+   "path": "/case-studies/kevel",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/krafton/",
+   "path": "/case-studies/krafton",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/kt/",
+   "path": "/case-studies/kt",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/layerx/",
+   "path": "/case-studies/layerx",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/legalzoom/",
+   "path": "/case-studies/legalzoom",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/marketplacer/",
+   "path": "/case-studies/marketplacer",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/mercado-libre/",
+   "path": "/case-studies/mercado-libre",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/mercadolibre/",
+   "path": "/case-studies/mercadolibre",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/method-security/",
+   "path": "/case-studies/method-security",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/modulus-labs/",
+   "path": "/case-studies/modulus-labs",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/mondelez-international/",
+   "path": "/case-studies/mondelez-international",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/namify/",
+   "path": "/case-studies/namify",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/natwest-boxed/",
+   "path": "/case-studies/natwest-boxed",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/nectar/",
+   "path": "/case-studies/nectar",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/neto/",
+   "path": "/case-studies/neto",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/nexthink/",
+   "path": "/case-studies/nexthink",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/nomad-health/",
+   "path": "/case-studies/nomad-health",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/ntt-data/",
+   "path": "/case-studies/ntt-data",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/nulab/",
+   "path": "/case-studies/nulab",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/olo/",
+   "path": "/case-studies/olo",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/patronus-ai/",
+   "path": "/case-studies/patronus-ai",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/paymongo/",
+   "path": "/case-studies/paymongo",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/paypal/",
+   "path": "/case-studies/paypal",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/picsart/",
+   "path": "/case-studies/picsart",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/porsche-informatik/",
+   "path": "/case-studies/porsche-informatik",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/posten-bring/",
+   "path": "/case-studies/posten-bring",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/prosieben/",
+   "path": "/case-studies/prosieben",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/qad-redzone/",
+   "path": "/case-studies/qad-redzone",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/rakuten-viber/",
+   "path": "/case-studies/rakuten-viber",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/rapdev/",
+   "path": "/case-studies/rapdev",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/roller/",
+   "path": "/case-studies/roller",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/salling-group/",
+   "path": "/case-studies/salling-group",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/sas/",
+   "path": "/case-studies/sas",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/shinsegae-international/",
+   "path": "/case-studies/shinsegae-international",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/signify/",
+   "path": "/case-studies/signify",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/simplereach-nativo/",
+   "path": "/case-studies/simplereach-nativo",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/skai/",
+   "path": "/case-studies/skai",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/sncf/",
+   "path": "/case-studies/sncf",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/snoonu/",
+   "path": "/case-studies/snoonu",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/sonos/",
+   "path": "/case-studies/sonos",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/springserve/",
+   "path": "/case-studies/springserve",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/stavvy/",
+   "path": "/case-studies/stavvy",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/stoxx/",
+   "path": "/case-studies/stoxx",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/sulamerica/",
+   "path": "/case-studies/sulamerica",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/sunexpress/",
+   "path": "/case-studies/sunexpress",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/tapple/",
+   "path": "/case-studies/tapple",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/the-browser-company/",
+   "path": "/case-studies/the-browser-company",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/thrivent/",
+   "path": "/case-studies/thrivent",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/tmap/",
+   "path": "/case-studies/tmap",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/torder/",
+   "path": "/case-studies/torder",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/toyota/",
+   "path": "/case-studies/toyota",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/twine/",
+   "path": "/case-studies/twine",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/tymex/",
+   "path": "/case-studies/tymex",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/unesp/",
+   "path": "/case-studies/unesp",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/usda/",
+   "path": "/case-studies/usda",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/usda-ecco/",
+   "path": "/case-studies/usda-ecco",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/v-point-marketing/",
+   "path": "/case-studies/v-point-marketing",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/vidio/",
+   "path": "/case-studies/vidio",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/visma-e-conomic/",
+   "path": "/case-studies/visma-e-conomic",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/vistarmedia/",
+   "path": "/case-studies/vistarmedia",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/vistarmedia2025/",
+   "path": "/case-studies/vistarmedia2025",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/vroong/",
+   "path": "/case-studies/vroong",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/webdox/",
+   "path": "/case-studies/webdox",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/zendesk/",
+   "path": "/case-studies/zendesk",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/observability/appdynamics-alternatives",
+   "path": "/blog/observability/appdynamics-alternatives",
+   "type": "alt",
+   "targets": [
+    "AppDynamics"
+   ]
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/observability/datadog-alternatives",
+   "path": "/blog/observability/datadog-alternatives",
+   "type": "alt",
+   "targets": [
+    "Datadog"
+   ]
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/observability/dynatrace-alternatives",
+   "path": "/blog/observability/dynatrace-alternatives",
+   "type": "alt",
+   "targets": [
+    "Dynatrace"
+   ]
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/observability/grafana-alternatives",
+   "path": "/blog/observability/grafana-alternatives",
+   "type": "alt",
+   "targets": [
+    "Grafana Labs"
+   ]
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/observability/splunk-alternatives",
+   "path": "/blog/observability/splunk-alternatives",
+   "type": "alt",
+   "targets": [
+    "Splunk"
+   ]
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/apm/new-relic-customer-story-wp-engine",
+   "path": "/blog/apm/new-relic-customer-story-wp-engine",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/dem/icims-new-relic-customer-story",
+   "path": "/blog/dem/icims-new-relic-customer-story",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/infrastructure-monitoring/find-jobs-customer-story",
+   "path": "/blog/infrastructure-monitoring/find-jobs-customer-story",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/27global",
+   "path": "/customers/27global",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/abinbev",
+   "path": "/customers/abinbev",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/abs-cbn",
+   "path": "/customers/abs-cbn",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/accedo",
+   "path": "/customers/accedo",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/achievers",
+   "path": "/customers/achievers",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/aeromexico",
+   "path": "/customers/aeromexico",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/amaysim",
+   "path": "/customers/amaysim",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/ansarada",
+   "path": "/customers/ansarada",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/australia-post",
+   "path": "/customers/australia-post",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/auto-and-general",
+   "path": "/customers/auto-and-general",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/banco-inter",
+   "path": "/customers/banco-inter",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/bangkok-bank",
+   "path": "/customers/bangkok-bank",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/basf-agricultural-solutions",
+   "path": "/customers/basf-agricultural-solutions",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/benevity",
+   "path": "/customers/benevity",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/capillary-technologies",
+   "path": "/customers/capillary-technologies",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/cencosud",
+   "path": "/customers/cencosud",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/chegg",
+   "path": "/customers/chegg",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/credit-sense-observability-critical-business-infrastructure",
+   "path": "/customers/credit-sense-observability-critical-business-infrastructure",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/deindeal",
+   "path": "/customers/deindeal",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/delivery-hero",
+   "path": "/customers/delivery-hero",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/dominos",
+   "path": "/customers/dominos",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/elmera-group",
+   "path": "/customers/elmera-group",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/elsevier",
+   "path": "/customers/elsevier",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/entrata",
+   "path": "/customers/entrata",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/everymatrix",
+   "path": "/customers/everymatrix",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/fairfaxmedia",
+   "path": "/customers/fairfaxmedia",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/flight-centre",
+   "path": "/customers/flight-centre",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/francetv",
+   "path": "/customers/francetv",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/getir",
+   "path": "/customers/getir",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/global-processing",
+   "path": "/customers/global-processing",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/government-of-india-contact-tracing-app",
+   "path": "/customers/government-of-india-contact-tracing-app",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/grupo-vocento",
+   "path": "/customers/grupo-vocento",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/hiscox-uk",
+   "path": "/customers/hiscox-uk",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/holidaycheck",
+   "path": "/customers/holidaycheck",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/ht-digital",
+   "path": "/customers/ht-digital",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/iag-accelerates-digital-transformation",
+   "path": "/customers/iag-accelerates-digital-transformation",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/infomedia",
+   "path": "/customers/infomedia",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/informa",
+   "path": "/customers/informa",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/itv",
+   "path": "/customers/itv",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/kogan",
+   "path": "/customers/kogan",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/mercadolibre",
+   "path": "/customers/mercadolibre",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/morningstar",
+   "path": "/customers/morningstar",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/movingimage",
+   "path": "/customers/movingimage",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/navan",
+   "path": "/customers/navan",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/nesine",
+   "path": "/customers/nesine",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/newsuk",
+   "path": "/customers/newsuk",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/nimble-takes-holistic-observability-approach",
+   "path": "/customers/nimble-takes-holistic-observability-approach",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/observability-blueprint",
+   "path": "/customers/observability-blueprint",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/pharmacy2u",
+   "path": "/customers/pharmacy2u",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/picpay",
+   "path": "/customers/picpay",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/reagroup",
+   "path": "/customers/reagroup",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/royal-society-of-chemistry",
+   "path": "/customers/royal-society-of-chemistry",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/ryanair",
+   "path": "/customers/ryanair",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/seven",
+   "path": "/customers/seven",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/share-now",
+   "path": "/customers/share-now",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/shutterstock",
+   "path": "/customers/shutterstock",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/skyscanner",
+   "path": "/customers/skyscanner",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/southerncrossaustereo",
+   "path": "/customers/southerncrossaustereo",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/sportradar",
+   "path": "/customers/sportradar",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/sqills",
+   "path": "/customers/sqills",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/swiggy",
+   "path": "/customers/swiggy",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/the-access-group",
+   "path": "/customers/the-access-group",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/tokopedia",
+   "path": "/customers/tokopedia",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/toyota",
+   "path": "/customers/toyota",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/toyota-pre-split-off",
+   "path": "/customers/toyota-pre-split-off",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/toyotashare",
+   "path": "/customers/toyotashare",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/true-digital",
+   "path": "/customers/true-digital",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/turo",
+   "path": "/customers/turo",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/unisa",
+   "path": "/customers/unisa",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/vault-health",
+   "path": "/customers/vault-health",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/verisk",
+   "path": "/customers/verisk",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/verizon",
+   "path": "/customers/verizon",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/viewpoint",
+   "path": "/customers/viewpoint",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/virtuo",
+   "path": "/customers/virtuo",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/watch-duty",
+   "path": "/customers/watch-duty",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/william-hill",
+   "path": "/customers/william-hill",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/wix",
+   "path": "/customers/wix",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/workiva",
+   "path": "/customers/workiva",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/world-kinect",
+   "path": "/customers/world-kinect",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/zenhub",
+   "path": "/customers/zenhub",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/customers/zestmoney",
+   "path": "/customers/zestmoney",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/ai/instrumenting-llm-router-new-relic-vs-prometheus",
+   "path": "/blog/ai/instrumenting-llm-router-new-relic-vs-prometheus",
+   "type": "vs_you",
+   "targets": [
+    "Prometheus"
+   ]
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/research/publications/a-comparison-of-kubernetes-compliance-standards-and-configuration-scanners/",
+   "path": "/research/publications/a-comparison-of-kubernetes-compliance-standards-and-configuration-scanners",
+   "type": "best",
+   "targets": [],
+   "audience": "Kubernetes and container monitoring"
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/cn/customers/adt-strengthens-resilience-of-security-systems-by-unifying-logs-and-telemetry-with-dynatrace/",
+   "path": "/cn/customers/adt-strengthens-resilience-of-security-systems-by-unifying-logs-and-telemetry-with-dynatrace",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/cn/customers/agos/",
+   "path": "/cn/customers/agos",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/cn/customers/bmo/",
+   "path": "/cn/customers/bmo",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/cn/customers/bt-digital-transformation/",
+   "path": "/cn/customers/bt-digital-transformation",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/cn/customers/cdl/",
+   "path": "/cn/customers/cdl",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/cn/customers/coca-cola-hellenic-beverage-company/",
+   "path": "/cn/customers/coca-cola-hellenic-beverage-company",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/cn/customers/how-agos-accelerates-customer-centric-innovation/",
+   "path": "/cn/customers/how-agos-accelerates-customer-centric-innovation",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/cn/customers/skyworks/",
+   "path": "/cn/customers/skyworks",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/cn/customers/welab/",
+   "path": "/cn/customers/welab",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/cn/customers/zurich-north-america/",
+   "path": "/cn/customers/zurich-north-america",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/company/trust-center/customers/capability-specific-terms/",
+   "path": "/company/trust-center/customers/capability-specific-terms",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/company/trust-center/customers/dynatrace-ai-terms/",
+   "path": "/company/trust-center/customers/dynatrace-ai-terms",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/company/trust-center/customers/in-product-assistance/",
+   "path": "/company/trust-center/customers/in-product-assistance",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/company/trust-center/customers/platform-usage/",
+   "path": "/company/trust-center/customers/platform-usage",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/company/trust-center/customers/reports/",
+   "path": "/company/trust-center/customers/reports",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/company/trust-center/customers/subprocessors-dynatrace-services/",
+   "path": "/company/trust-center/customers/subprocessors-dynatrace-services",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/abercrombie-and-fitch/",
+   "path": "/customers/abercrombie-and-fitch",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/accenture/",
+   "path": "/customers/accenture",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/adt/",
+   "path": "/customers/adt",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/aeroporti-di-roma/",
+   "path": "/customers/aeroporti-di-roma",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/agos/",
+   "path": "/customers/agos",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/air-canada/",
+   "path": "/customers/air-canada",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/air-france-klm/",
+   "path": "/customers/air-france-klm",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/al-rajhi-takaful/",
+   "path": "/customers/al-rajhi-takaful",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/american-airlines/",
+   "path": "/customers/american-airlines",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/american-fidelity/",
+   "path": "/customers/american-fidelity",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/arada/",
+   "path": "/customers/arada",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/avodaq/",
+   "path": "/customers/avodaq",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/bank-muscat/",
+   "path": "/customers/bank-muscat",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/basware/",
+   "path": "/customers/basware",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/bmo/",
+   "path": "/customers/bmo",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/bms/",
+   "path": "/customers/bms",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/bnz/",
+   "path": "/customers/bnz",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/bt/",
+   "path": "/customers/bt",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/bt-digital-transformation/",
+   "path": "/customers/bt-digital-transformation",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/careem/",
+   "path": "/customers/careem",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/caresource/",
+   "path": "/customers/caresource",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/carnival/",
+   "path": "/customers/carnival",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/cdl/",
+   "path": "/customers/cdl",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/cencosud-scotiabank/",
+   "path": "/customers/cencosud-scotiabank",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/cimb/",
+   "path": "/customers/cimb",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/clario/",
+   "path": "/customers/clario",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/coca-cola-hellenic-beverage-company/",
+   "path": "/customers/coca-cola-hellenic-beverage-company",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/deutsche-telekom/",
+   "path": "/customers/deutsche-telekom",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/dubai-customs/",
+   "path": "/customers/dubai-customs",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/edf/",
+   "path": "/customers/edf",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/fairstone-bank/",
+   "path": "/customers/fairstone-bank",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/federated-mutual-insurance-company/",
+   "path": "/customers/federated-mutual-insurance-company",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/first-national-bank-of-omaha/",
+   "path": "/customers/first-national-bank-of-omaha",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/freedompay/",
+   "path": "/customers/freedompay",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/freedompay-2/",
+   "path": "/customers/freedompay-2",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/freedompay-3/",
+   "path": "/customers/freedompay-3",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/fubon-bank/",
+   "path": "/customers/fubon-bank",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/fujitsu/",
+   "path": "/customers/fujitsu",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/hmcts/",
+   "path": "/customers/hmcts",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/horizon-power/",
+   "path": "/customers/horizon-power",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/how-agos-accelerates-customer-centric-innovation/",
+   "path": "/customers/how-agos-accelerates-customer-centric-innovation",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/inail/",
+   "path": "/customers/inail",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/inpost/",
+   "path": "/customers/inpost",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/inpost-ai/",
+   "path": "/customers/inpost-ai",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/ip-australia/",
+   "path": "/customers/ip-australia",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/kbc/",
+   "path": "/customers/kbc",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/kbtg/",
+   "path": "/customers/kbtg",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/keybank/",
+   "path": "/customers/keybank",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/keybank-kubernetes/",
+   "path": "/customers/keybank-kubernetes",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/kroger/",
+   "path": "/customers/kroger",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/landbay/",
+   "path": "/customers/landbay",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/loandepot/",
+   "path": "/customers/loandepot",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/m-t-bank/",
+   "path": "/customers/m-t-bank",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/macquarie-bank/",
+   "path": "/customers/macquarie-bank",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/marks-spencer/",
+   "path": "/customers/marks-spencer",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/melia/",
+   "path": "/customers/melia",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/migros-bank/",
+   "path": "/customers/migros-bank",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/mitchells-and-butlers/",
+   "path": "/customers/mitchells-and-butlers",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/mizuho-securities-asia-limited/",
+   "path": "/customers/mizuho-securities-asia-limited",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/motorpoint/",
+   "path": "/customers/motorpoint",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/national-grid/",
+   "path": "/customers/national-grid",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/nationwide/",
+   "path": "/customers/nationwide",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/nequi/",
+   "path": "/customers/nequi",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/next/",
+   "path": "/customers/next",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/onestream/",
+   "path": "/customers/onestream",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/park-n-fly/",
+   "path": "/customers/park-n-fly",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/pasco-county/",
+   "path": "/customers/pasco-county",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/paymaya/",
+   "path": "/customers/paymaya",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/pegasus/",
+   "path": "/customers/pegasus",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/photobox/",
+   "path": "/customers/photobox",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/piksel/",
+   "path": "/customers/piksel",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/prime-therapeutics/",
+   "path": "/customers/prime-therapeutics",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/provinzial/",
+   "path": "/customers/provinzial",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/queen-mary-university-of-london/",
+   "path": "/customers/queen-mary-university-of-london",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/raymond-james/",
+   "path": "/customers/raymond-james",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/riyad-bank/",
+   "path": "/customers/riyad-bank",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/rwwa/",
+   "path": "/customers/rwwa",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/sap/",
+   "path": "/customers/sap",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/sardegna-it/",
+   "path": "/customers/sardegna-it",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/shriram-capital/",
+   "path": "/customers/shriram-capital",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/sicredi/",
+   "path": "/customers/sicredi",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/skyworks/",
+   "path": "/customers/skyworks",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/soldo/",
+   "path": "/customers/soldo",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/state-of-michigan/",
+   "path": "/customers/state-of-michigan",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/state-of-minnesota/",
+   "path": "/customers/state-of-minnesota",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/storio-group/",
+   "path": "/customers/storio-group",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/td-bank/",
+   "path": "/customers/td-bank",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/telus/",
+   "path": "/customers/telus",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/telus-2/",
+   "path": "/customers/telus-2",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/temenos/",
+   "path": "/customers/temenos",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/tsb/",
+   "path": "/customers/tsb",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/u-haul/",
+   "path": "/customers/u-haul",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/u-haul-dem/",
+   "path": "/customers/u-haul-dem",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/united-airlines/",
+   "path": "/customers/united-airlines",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/usi/",
+   "path": "/customers/usi",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/vestmark/",
+   "path": "/customers/vestmark",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/village-roadshow/",
+   "path": "/customers/village-roadshow",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/virgin-money/",
+   "path": "/customers/virgin-money",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/vitality/",
+   "path": "/customers/vitality",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/vitality-2/",
+   "path": "/customers/vitality-2",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/vivint/",
+   "path": "/customers/vivint",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/vodafone/",
+   "path": "/customers/vodafone",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/welab/",
+   "path": "/customers/welab",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/western-governors-university/",
+   "path": "/customers/western-governors-university",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/wiley/",
+   "path": "/customers/wiley",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/xxxlutz/",
+   "path": "/customers/xxxlutz",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/customers/zurich-north-america/",
+   "path": "/customers/zurich-north-america",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/news/blog/monitoring-windows-workstations-with-dynatrace-an-it-helpdesk-case-study/",
+   "path": "/news/blog/monitoring-windows-workstations-with-dynatrace-an-it-helpdesk-case-study",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/research/publications/leveraging-model-driven-technologies-for-json-artefacts-the-shipyard-case-study/",
+   "path": "/research/publications/leveraging-model-driven-technologies-for-json-artefacts-the-shipyard-case-study",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/research/publications/towards-blended-modeling-and-simulation-of-devops-processes-the-keptn-case-study/",
+   "path": "/research/publications/towards-blended-modeling-and-simulation-of-devops-processes-the-keptn-case-study",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/tw/customers/adt-strengthens-resilience-of-security-systems-by-unifying-logs-and-telemetry-with-dynatrace/",
+   "path": "/tw/customers/adt-strengthens-resilience-of-security-systems-by-unifying-logs-and-telemetry-with-dynatrace",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/tw/customers/agos/",
+   "path": "/tw/customers/agos",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/tw/customers/bmo/",
+   "path": "/tw/customers/bmo",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/tw/customers/bt-digital-transformation/",
+   "path": "/tw/customers/bt-digital-transformation",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/tw/customers/cdl/",
+   "path": "/tw/customers/cdl",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/tw/customers/coca-cola-hellenic-beverage-company/",
+   "path": "/tw/customers/coca-cola-hellenic-beverage-company",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/tw/customers/first-national-bank-of-omaha/",
+   "path": "/tw/customers/first-national-bank-of-omaha",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/tw/customers/freedompay/",
+   "path": "/tw/customers/freedompay",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/tw/customers/how-agos-accelerates-customer-centric-innovation/",
+   "path": "/tw/customers/how-agos-accelerates-customer-centric-innovation",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/tw/customers/skyworks/",
+   "path": "/tw/customers/skyworks",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/tw/customers/td-bank/",
+   "path": "/tw/customers/td-bank",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/tw/customers/welab/",
+   "path": "/tw/customers/welab",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/tw/customers/zurich-north-america/",
+   "path": "/tw/customers/zurich-north-america",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/resources/5-reasons-customers-switch-from-splunk-to-dynatrace-20029328/",
+   "path": "/resources/5-reasons-customers-switch-from-splunk-to-dynatrace-20029328",
+   "type": "switch",
+   "targets": [
+    "Splunk"
+   ]
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/resources/splunk-vs-dynatrace-for-modern-log-management-19965247/",
+   "path": "/resources/splunk-vs-dynatrace-for-modern-log-management-19965247",
+   "type": "vs_you",
+   "targets": [
+    "Splunk"
+   ]
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/blog/how-prometheus-remote-write-v2-can-help-cut-network-egress-costs-by-as-much-as-50-/",
+   "path": "/blog/how-prometheus-remote-write-v2-can-help-cut-network-egress-costs-by-as-much-as-50-",
+   "type": "pricing",
+   "targets": [
+    "Prometheus"
+   ]
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/blog/from-datadog-to-grafana-cloud-why-companies-migrate-and-how-it-changes-business-for-the-better/",
+   "path": "/blog/from-datadog-to-grafana-cloud-why-companies-migrate-and-how-it-changes-business-for-the-better",
+   "type": "switch",
+   "targets": [
+    "Datadog"
+   ]
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/blog/the-trade-desk-lessons-we-learned-migrating-from-homegrown-monitoring-to-prometheus/",
+   "path": "/blog/the-trade-desk-lessons-we-learned-migrating-from-homegrown-monitoring-to-prometheus",
+   "type": "switch",
+   "targets": [
+    "Prometheus"
+   ]
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/compare/grafana-vs-datadog/",
+   "path": "/compare/grafana-vs-datadog",
+   "type": "vs_you",
+   "targets": [
+    "Datadog"
+   ]
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/blog/datadog-alternatives-cloud-security-and-application-monitoring",
+   "path": "/blog/datadog-alternatives-cloud-security-and-application-monitoring",
+   "type": "alt",
+   "targets": [
+    "Datadog"
+   ]
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/blog/splunk-cloud-native-alternative",
+   "path": "/blog/splunk-cloud-native-alternative",
+   "type": "alt",
+   "targets": [
+    "Splunk"
+   ]
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/blog/case-study-genesys-journey-to-the-cloud-devops-excellence",
+   "path": "/blog/case-study-genesys-journey-to-the-cloud-devops-excellence",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/blog/digital-universe-and-pci-compliance-a-customer-story",
+   "path": "/blog/digital-universe-and-pci-compliance-a-customer-story",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/acquia",
+   "path": "/case-studies/acquia",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/alaska-airlines",
+   "path": "/case-studies/alaska-airlines",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/ark",
+   "path": "/case-studies/ark",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/ascential",
+   "path": "/case-studies/ascential",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/automation-anywhere",
+   "path": "/case-studies/automation-anywhere",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/avalon-cyber",
+   "path": "/case-studies/avalon-cyber",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/bitbank",
+   "path": "/case-studies/bitbank",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/bugcrowd",
+   "path": "/case-studies/bugcrowd",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/cardlytics",
+   "path": "/case-studies/cardlytics",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/carsales",
+   "path": "/case-studies/carsales",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/channel-4",
+   "path": "/case-studies/channel-4",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/coincheck",
+   "path": "/case-studies/coincheck",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/destination-xl-group",
+   "path": "/case-studies/destination-xl-group",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/endowus",
+   "path": "/case-studies/endowus",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/epsilon",
+   "path": "/case-studies/epsilon",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/global-airline-company",
+   "path": "/case-studies/global-airline-company",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/global-bank",
+   "path": "/case-studies/global-bank",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/global-finance-company",
+   "path": "/case-studies/global-finance-company",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/global-fitness-company",
+   "path": "/case-studies/global-fitness-company",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/grammarly",
+   "path": "/case-studies/grammarly",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/gree",
+   "path": "/case-studies/gree",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/hashicorp",
+   "path": "/case-studies/hashicorp",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/hootsuite",
+   "path": "/case-studies/hootsuite",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/hudl",
+   "path": "/case-studies/hudl",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/infor",
+   "path": "/case-studies/infor",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/kobalt-io",
+   "path": "/case-studies/kobalt-io",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/lending-tree-fintech",
+   "path": "/case-studies/lending-tree-fintech",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/lendingtree-operations",
+   "path": "/case-studies/lendingtree-operations",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/medidata",
+   "path": "/case-studies/medidata",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/medidata-operations",
+   "path": "/case-studies/medidata-operations",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/netskope",
+   "path": "/case-studies/netskope",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/ntt-data",
+   "path": "/case-studies/ntt-data",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/openpayd",
+   "path": "/case-studies/openpayd",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/openpayd-fintech",
+   "path": "/case-studies/openpayd-fintech",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/paccar",
+   "path": "/case-studies/paccar",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/patrianna",
+   "path": "/case-studies/patrianna",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/pitney-bowes",
+   "path": "/case-studies/pitney-bowes",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/roku",
+   "path": "/case-studies/roku",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/samsung",
+   "path": "/case-studies/samsung",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/sap",
+   "path": "/case-studies/sap",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/security-centric",
+   "path": "/case-studies/security-centric",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/security-resource-group",
+   "path": "/case-studies/security-resource-group",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/sega-europe",
+   "path": "/case-studies/sega-europe",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/singletrack",
+   "path": "/case-studies/singletrack",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/sps-commerce",
+   "path": "/case-studies/sps-commerce",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/standard-chartered",
+   "path": "/case-studies/standard-chartered",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/tailored-brands",
+   "path": "/case-studies/tailored-brands",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/truelayer",
+   "path": "/case-studies/truelayer",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/trust-bank",
+   "path": "/case-studies/trust-bank",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/ulta-beauty",
+   "path": "/case-studies/ulta-beauty",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/vaimo",
+   "path": "/case-studies/vaimo",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/weverse",
+   "path": "/case-studies/weverse",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/case-studies/xero",
+   "path": "/case-studies/xero",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/blog/prometheus-vs-grafana",
+   "path": "/blog/prometheus-vs-grafana",
+   "type": "vs_rivals",
+   "targets": [
+    "Grafana Labs",
+    "Prometheus"
+   ]
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/blog/sumo-logic-cloud-siem-vs-splunk-es",
+   "path": "/blog/sumo-logic-cloud-siem-vs-splunk-es",
+   "type": "vs_you",
+   "targets": [
+    "Splunk"
+   ]
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/videos/microlesson-sumo-logic-dynamic-scalability-vs-splunk",
+   "path": "/videos/microlesson-sumo-logic-dynamic-scalability-vs-splunk",
+   "type": "vs_you",
+   "targets": [
+    "Splunk"
+   ]
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/videos/microlesson-sumo-logic-out-of-box-security-vs-splunk",
+   "path": "/videos/microlesson-sumo-logic-out-of-box-security-vs-splunk",
+   "type": "vs_you",
+   "targets": [
+    "Splunk"
+   ]
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/videos/microlesson-sumo-logic-unified-cloud-native-platform-vs-splunk",
+   "path": "/videos/microlesson-sumo-logic-unified-cloud-native-platform-vs-splunk",
+   "type": "vs_you",
+   "targets": [
+    "Splunk"
+   ]
+  }
+ ]
+}
