@@ -47,6 +47,54 @@
      "pages": 1603
     }
    }
+  },
+  {
+   "week": "2026-W44",
+   "date": "2026-10-26T12:58:25+00:00",
+   "sites": {
+    "Datadog": {
+     "new": 7,
+     "updated": 0,
+     "removed": 0,
+     "pages": 2904
+    },
+    "New Relic": {
+     "new": 9,
+     "updated": 0,
+     "removed": 0,
+     "pages": 1308
+    },
+    "Dynatrace": {
+     "new": 34,
+     "updated": 1,
+     "removed": 0,
+     "pages": 3037
+    },
+    "Splunk": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 0
+    },
+    "Grafana Labs": {
+     "new": 8,
+     "updated": 3,
+     "removed": 0,
+     "pages": 2356
+    },
+    "Elastic Observability": {
+     "new": 2,
+     "updated": 0,
+     "removed": 0,
+     "pages": 42
+    },
+    "Sumo Logic": {
+     "new": 4,
+     "updated": 3,
+     "removed": 0,
+     "pages": 1605
+    }
+   }
   }
  ]
 }

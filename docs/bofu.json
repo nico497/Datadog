@@ -3,7 +3,7 @@
   "title": "Bottom-of-funnel content tracker",
   "niche": "Cloud monitoring, observability, and application performance management (APM) software",
   "you": "Datadog",
-  "generated": "2026-10-20T02:39:55+00:00",
+  "generated": "2026-10-26T13:08:14+00:00",
   "state_updated": "2026-10-20T02:31:19+00:00",
   "repo": "nico497/Datadog"
  },
@@ -40,8 +40,8 @@
  "sites": [
   {
    "name": "Datadog",
-   "tracked": 3158,
-   "considered": 2896,
+   "tracked": 3165,
+   "considered": 2903,
    "own_pricing": "https://www.datadoghq.com/pricing/",
    "hubs": [
     "https://www.datadoghq.com/customers/"
@@ -49,15 +49,15 @@
   },
   {
    "name": "New Relic",
-   "tracked": 2631,
-   "considered": 1255,
+   "tracked": 2640,
+   "considered": 1263,
    "own_pricing": null,
    "hubs": []
   },
   {
    "name": "Dynatrace",
-   "tracked": 3750,
-   "considered": 2963,
+   "tracked": 3773,
+   "considered": 2978,
    "own_pricing": "https://www.dynatrace.com/pricing/",
    "hubs": [
     "https://www.dynatrace.com/customers/",
@@ -67,29 +67,29 @@
   },
   {
    "name": "Splunk",
-   "tracked": 1810,
+   "tracked": 1814,
    "considered": 0,
    "own_pricing": null,
    "hubs": []
   },
   {
    "name": "Grafana Labs",
-   "tracked": 22212,
-   "considered": 2268,
+   "tracked": 22380,
+   "considered": 2276,
    "own_pricing": "https://grafana.com/pricing/",
    "hubs": []
   },
   {
    "name": "Elastic Observability",
-   "tracked": 40,
-   "considered": 40,
+   "tracked": 42,
+   "considered": 42,
    "own_pricing": null,
    "hubs": []
   },
   {
    "name": "Sumo Logic",
-   "tracked": 1893,
-   "considered": 1307,
+   "tracked": 1895,
+   "considered": 1308,
    "own_pricing": "https://www.sumologic.com/pricing",
    "hubs": [
     "https://www.sumologic.com/customers",
@@ -116,9 +116,9 @@
   "Lightstep"
  ],
  "excluded": {
-  "templated pages": 24286,
-  "webinars, glossary, events and category pages": 426,
-  "translated pages": 53
+  "templated pages": 24457,
+  "webinars, glossary, events and category pages": 427,
+  "translated pages": 55
  },
  "pages": [
   {
@@ -335,6 +335,13 @@
    "site": "Datadog",
    "url": "https://www.datadoghq.com/case-studies/braze/",
    "path": "/case-studies/braze",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/bullla/",
+   "path": "/case-studies/bullla",
    "type": "case",
    "targets": []
   },
@@ -643,6 +650,13 @@
    "site": "Datadog",
    "url": "https://www.datadoghq.com/case-studies/method-security/",
    "path": "/case-studies/method-security",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/case-studies/modal/",
+   "path": "/case-studies/modal",
    "type": "case",
    "targets": []
   },
@@ -1663,6 +1677,36 @@
    "path": "/customers/zestmoney",
    "type": "case",
    "targets": []
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/observability/datadog-vs-dynatrace",
+   "path": "/blog/observability/datadog-vs-dynatrace",
+   "type": "vs_rivals",
+   "targets": [
+    "Dynatrace",
+    "Datadog"
+   ]
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/observability/datadog-vs-grafana",
+   "path": "/blog/observability/datadog-vs-grafana",
+   "type": "vs_rivals",
+   "targets": [
+    "Grafana Labs",
+    "Datadog"
+   ]
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/observability/datadog-vs-splunk",
+   "path": "/blog/observability/datadog-vs-splunk",
+   "type": "vs_rivals",
+   "targets": [
+    "Splunk",
+    "Datadog"
+   ]
   },
   {
    "site": "New Relic",
