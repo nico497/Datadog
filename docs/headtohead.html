@@ -199,6 +199,22 @@ table.nums tr.you td.h { background: color-mix(in srgb, var(--rival) calc(var(--
 .ctypes button:hover { border-color: var(--navy); }
 .cp { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; }
 .cp > div { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 24px; box-shadow: var(--shadow); }
+.cp .swcard { border-top: 4px solid var(--you); }
+.cp .swcard.w { border-top-color: var(--navy); }
+.cp ul.pts { list-style: disc; padding-left: 20px; color: var(--ink-2); } .cp ul.pts li { padding: 4px 0; }
+.cp .ph { margin: 0 0 6px; color: var(--navy); font-weight: 700; }
+.cp .cn .ph + ul.pts { margin-bottom: 16px; }
+.swcard h3 { margin: 0 0 4px; color: var(--navy); font: 800 24px/1.2 var(--sans); font-stretch: 106%; }
+.swcard .swsub { margin: 0 0 8px; color: var(--ink-3); font-size: 14px; }
+.swrow { padding: 14px 0; border-top: 1px solid var(--line); }
+.swrow:first-of-type { border-top: 0; }
+.swrow p { margin: 0 0 9px; color: var(--ink); font-size: 15px; font-weight: 600; line-height: 1.35; }
+.swbar { display: flex; align-items: center; gap: 12px; }
+.swtrack { flex: 1; height: 8px; border-radius: 999px; background: var(--mark); overflow: hidden; }
+.swfill { display: block; height: 100%; border-radius: 999px; background: var(--you); }
+.swcard.w .swfill { background: var(--navy); }
+.swpct { min-width: 44px; text-align: right; color: var(--navy); font: 800 17px/1 var(--sans); font-variant-numeric: tabular-nums; }
+.swn { min-width: 92px; color: var(--ink-3); font-size: 13px; }
 .cp .cn { background: var(--panel); border-color: transparent; }
 .cp .cn h3 { margin: 0 0 12px; color: var(--navy); font: 700 20px/1.25 var(--sans); font-stretch: 106%; }
 .cp ul { margin: 0; padding: 0; list-style: none; font-size: 15px; } .cp li { padding: 5px 0; overflow-wrap: anywhere; } .cp .ty { font-size: 13px; color: var(--ink-3); }
@@ -269,8 +285,6 @@ ul.how { margin: 0; padding-left: 20px; color: var(--ink-2); max-width: 62em; } 
     <nav class="nav" aria-label="Tools"><svg width="24" height="24" viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="17" width="7" height="11" rx="2" fill="#3a547a"/><rect x="12.5" y="10" width="7" height="18" rx="2" fill="#3a547a"/><rect x="21" y="3" width="7" height="25" rx="2" fill="#0aa8bf"/></svg><a href="./">Competitor Radar</a><a href="funnel.html">Funnel Gap Radar</a><a href="headtohead.html" aria-current="page">Head-to-Head Radar</a></nav>
     <span class="stamp">OpenAI API (gpt-4o) · Oct 2026</span>
   </header>
-  <p class="mockbar"><b>Real data, via the OpenAI API.</b> All 60 forced-pick answers (6 rivals × 2 name orders × 5 runs each) and all 12 open-comparison answers came from the OpenAI API (gpt-4o) directly — no browsing, so none of the reasoning below carries citations. It's the model's general knowledge, not a sourced comparison. Datadog sweeps or near-sweeps every rival here; the one real contest is Dynatrace, which flips by name order.</p>
-
   <section id="headline"></section>
 
   <section class="sec">
@@ -287,9 +301,9 @@ ul.how { margin: 0; padding-left: 20px; color: var(--ink-2); max-width: 62em; } 
   </section>
 
   <section class="sec">
-    <div class="sechead"><div><h2 class="title">Worth checking</h2><p class="sub">Claims ChatGPT made in the open-comparison runs that are specific enough to verify against your own pricing and docs.</p></div></div>
+    <div class="sechead"><div><h2 class="title">Worth checking</h2><p class="sub">Claims the model made in the open-comparison runs that are specific enough to verify against your own pricing and docs.</p></div></div>
     <div class="tablewrap"><table class="fc" id="fc"></table></div>
-    <p class="note">These are unverified — pulled straight from ChatGPT's answers, not checked against a fact sheet yet.</p>
+    <p class="note">These are unverified — pulled straight from the model's answers (no browsing on this route), not checked against a fact sheet yet.</p>
   </section>
 
   <section class="sec" id="find">
@@ -306,7 +320,8 @@ ul.how { margin: 0; padding-left: 20px; color: var(--ink-2); max-width: 62em; } 
     <ul class="how">
       <li>Forced-pick question: "If you had to pick one observability and monitoring platform for an engineering team, Datadog or {rival}?" Asked in both name orders, 5 fresh runs each (60 answers total), via the OpenAI API (gpt-4o) directly — no browsing, no memory, no personalization.</li>
       <li>Open comparison question: "Datadog vs. {rival}: which should I choose?" Asked once per order (12 answers) — this is where the qualitative reasoning below comes from. It is <b>not</b> repeated, so a single odd answer could be noise, and since it's the API with no browsing, there are no citations to check — just the model's general knowledge of each product.</li>
-      <li>Both orders are asked because the model can lean toward whichever brand is named first. For New Relic, Splunk and Elastic Observability it doesn't matter — Datadog sweeps 10 of 10 either way. Grafana Labs and Sumo Logic are near-sweeps (9 of 10) with a mild order lean. Dynatrace is the one genuine contest: Datadog sweeps when named first, but Dynatrace wins the majority when named first instead — a real order-sensitive split, not a lopsided win for either side.</li>
+      <li>Both orders are asked because the model can lean toward whichever brand is named first. For New Relic, Splunk, Elastic Observability and Sumo Logic it doesn't matter — Datadog sweeps 10 of 10 either way. Grafana Labs is a near-sweep (9 of 10) with a mild order lean. Dynatrace is the one genuine contest: Datadog sweeps when named first, but Dynatrace wins the majority (3 of 5) when named first instead — a real order-sensitive split, not a lopsided win for either side.</li>
+      <li>The headline finding: Datadog wins all six matchups, so the useful signal is where the model hedges. The Dynatrace order flip is one. The other is cost: all six open comparisons flag Datadog's pricing as climbing at scale, even in the matchups it sweeps.</li>
       <li>Not yet covered: pricing, integrations, deployment model and support as separate scored dimensions — they'd need their own repeated, structured prompts to be real rather than invented. Also not covered: any engine besides this one, and any run with browsing or a logged-in session.</li>
     </ul>
   </section>
@@ -376,6 +391,60 @@ const H2H = {
 };
 const RIV = Object.keys(H2H);
 
+// Plain-language read of each matchup's open-comparison answers (gpt-4o, one run per name order).
+const SUM = {
+  "New Relic": {
+    why: ["Datadog is picked 10 of 10 times, whichever name comes first.", "The model frames it as breadth and scale (Datadog) versus developer depth (New Relic). Breadth wins once the pick is for a whole engineering team."],
+    rival: ["Developer-centric depth: detailed traces and code-level diagnostics", "Proactive issue detection before users are affected", "Flexible consumption-based pricing"],
+    you: ["One platform across infrastructure, apps, logs and user experience", "Quick setup and strong AWS, Azure and GCP integrations", "Scales well for large, growing environments"],
+  },
+  Dynatrace: {
+    why: ["The one real contest: Datadog is picked 5 of 5 when named first, but only 2 of 5 when Dynatrace is.", "Both answers say it depends on your environment: large, complex microservices favor Dynatrace, while budget and modular pricing favor Datadog."],
+    rival: ["AI-driven automatic root-cause analysis", "Full-stack monitoring in one platform, including user experience and synthetic checks", "Built for large-scale, complex microservices"],
+    you: ["Easy setup and an intuitive interface", "Extensive integrations", "Flexible modular pricing: start small, add features"],
+  },
+  Splunk: {
+    why: ["Datadog is picked 10 of 10 times, whichever name comes first.", "Splunk's case is log analysis and security (SIEM) for large enterprises. The model sees that as narrower than a general engineering-team pick, and says Splunk costs more and takes longer to learn."],
+    rival: ["Powerful log management and search at large scale", "SIEM-style security use cases for big enterprises", "Machine-learning predictive analytics"],
+    you: ["Cloud-native monitoring with AWS, Azure and GCP integrations", "Easier, faster setup", "One view of metrics, logs and events"],
+  },
+  "Grafana Labs": {
+    why: ["Datadog wins 9 of 10: 5 of 5 when named first, 4 of 5 when Grafana Labs is.", "Grafana's case is open source, self-hosting and cost control. Datadog's is a fully managed, all-in-one setup with little to run yourself."],
+    rival: ["Open source and self-hostable, useful for compliance or data-residency needs", "Highly customizable dashboards across many data sources", "Cost-effective if you manage it yourself"],
+    you: ["Fully managed SaaS: APM, logs and monitoring out of the box", "Minimal setup", "Security products and strong support"],
+  },
+  "Elastic Observability": {
+    why: ["Datadog is picked 10 of 10 times, whichever name comes first.", "Elastic's case is open source, self-hosting and customization. The model says that pays off mainly if you already run the Elastic Stack and can manage it."],
+    rival: ["Built on the open-source Elastic Stack (ELK), cheaper if self-hosted", "Deep customization through Kibana", "Scales well for large log volumes"],
+    you: ["Fully managed, with little operational overhead", "Easy setup and many pre-built integrations", "Infrastructure, APM and logs in one platform"],
+  },
+  "Sumo Logic": {
+    why: ["Datadog is picked 10 of 10 times, whichever name comes first.", "Sumo Logic's case is logs, security and compliance. The model treats that as narrower than Datadog's wider infrastructure and application monitoring."],
+    rival: ["Strong log management and security analytics", "Compliance auditing, named as useful for finance and healthcare", "More predictable pricing based on data volume"],
+    you: ["Broad infrastructure and application monitoring", "400+ integrations", "Intuitive interface with machine-learning anomaly detection"],
+  },
+};
+
+// Consistent strengths/weaknesses: themes that recur in 2+ matchups' open-comparison answers (gpt-4o, 1 run per order).
+// A matchup counts if the point shows up in at least one of its two answers. Dynatrace is kept at 1 matchup: it is the only one where the pick flips.
+const SWTAB = "__sw";
+const SW = {
+  strengths: [
+    ["Easy to set up and use", ["New Relic", "Dynatrace", "Splunk", "Grafana Labs", "Elastic Observability", "Sumo Logic"]],
+    ["Wide range of pre-built integrations", ["New Relic", "Dynatrace", "Splunk", "Grafana Labs", "Elastic Observability", "Sumo Logic"]],
+    ["One platform for infrastructure, APM and logs", ["New Relic", "Splunk", "Grafana Labs", "Elastic Observability", "Sumo Logic"]],
+    ["Strong fit for cloud setups (AWS, Azure, GCP)", ["New Relic", "Dynatrace", "Splunk", "Elastic Observability"]],
+    ["Fully managed, so little to run yourself", ["Grafana Labs", "Elastic Observability"]],
+  ],
+  weaknesses: [
+    ["Cost climbs as hosts, features and data grow; modular pricing is hard to forecast", ["New Relic", "Dynatrace", "Splunk", "Grafana Labs", "Elastic Observability", "Sumo Logic"]],
+    ["Can feel complex: setup and learning curve grow with many integrations", ["New Relic", "Dynatrace", "Splunk", "Sumo Logic"]],
+    ["Log-focused rivals are seen as stronger on large log volumes and log analysis", ["Splunk", "Elastic Observability", "Sumo Logic"]],
+    ["Less customizable and more locked-in than open-source options", ["Grafana Labs", "Elastic Observability", "Sumo Logic"]],
+    ["Dynatrace is seen as better for large, complex environments (wins 3 of 10 picks, all when named first)", ["Dynatrace"]],
+  ],
+};
+
 // Claims worth checking, pulled from the open comparisons (no citations — API route, no browsing).
 const FACTS = [
   ["Datadog positioning", "Consistently described as a unified, fully managed SaaS platform (infrastructure, APM, logs, security) with extensive integrations and modular/add-on pricing", "Datadog"],
@@ -398,9 +467,13 @@ function stability(r) {
 
 function renderHead() {
   const wins = RIV.filter((r) => total(r).blvd > total(r).rival);
-  const unstable = RIV.filter((r) => stability(r) === "Split");
+  const losses = RIV.filter((r) => total(r).blvd < total(r).rival);
+  const split = RIV.filter((r) => stability(r) === "Split");
+  const sp = split[0];
+  const lead = losses.length ? `Clear loss to ${esc(losses.join(", "))}.` : `No rival beats ${YOU} overall.`;
+  const spTxt = sp ? ` Only <b>${esc(sp)}</b> gets close, winning ${H2H[sp].them.rival} of 5 picks when it's named first.` : "";
   $("#headline").innerHTML = `<h1 class="title">The model picks ${YOU} in <mark class="hl you">${wins.length} of ${RIV.length}</mark> forced-pick head-to-heads.</h1>
-  <p class="facts">${YOU} sweeps or near-sweeps every rival here. The one genuine contest is <b>${esc(unstable.join(", "))}</b> — the only rival where the forced pick actually flips depending on which name the model hears first, a real order-sensitive result rather than a lopsided win.</p>`;
+  <p class="facts">${lead}${spTxt}</p>`;
 }
 
 function renderBoard() {
@@ -421,21 +494,36 @@ function renderBoard() {
   });
 }
 
-let CS = "Dynatrace";
+let CS = SWTAB;
 function renderComp() {
-  $("#ctabs").innerHTML = `<span class="tabslabel">${YOU} vs.</span>` + RIV.map((r) => `<button type="button" data-r="${esc(r)}" aria-pressed="${r === CS}">${esc(r)}</button>`).join("");
+  $("#ctabs").innerHTML = `<button type="button" data-r="${SWTAB}" aria-pressed="${CS === SWTAB}">Strengths &amp; weaknesses</button><span class="tabslabel" aria-hidden="true">|</span><span class="tabslabel">${YOU} vs.</span>` + RIV.map((r) => `<button type="button" data-r="${esc(r)}" aria-pressed="${r === CS}">${esc(r)}</button>`).join("");
   $("#ctabs").querySelectorAll("button").forEach((b) => b.addEventListener("click", () => { CS = b.dataset.r; renderComp(); }));
-  const m = H2H[CS], t = total(CS);
+  if (CS === SWTAB) return renderSW();
+  const m = H2H[CS], t = total(CS), x = SUM[CS];
   const vtxt = t.blvd > t.rival ? `The model picks ${YOU} in ${t.blvd} of 10 forced-pick runs.` : t.blvd < t.rival ? `The model picks ${esc(CS)} in ${t.rival} of 10 forced-pick runs.` : `Dead even across 10 runs.`;
+  const pts = (a) => `<ul class="pts">${a.map((p) => `<li>${esc(p)}</li>`).join("")}</ul>`;
   $("#cpanel").innerHTML = `<div class="cp"><div>
       <p class="verdict">${vtxt}</p>
-      <div class="ord"><span>${YOU} named first: <b>${m.you.blvd} of 5</b> for ${YOU}</span><span>${esc(CS)} named first: <b>${m.them.blvd} of 5</b> for ${YOU}</span></div>
-      <p class="dim" style="margin:0 0 6px;font-weight:700;color:var(--navy)">Open comparison (single run, not repeated)</p>
-      <ul class="how">${m.openPoints.map((p) => `<li>${esc(p)}</li>`).join("")}</ul>
-    </div><div class="cn"><h3>What the open comparison cited</h3>
-      <p class="insight">${esc(m.openCites)}</p>
-      <p class="insight">This is from one run per order (2 total), not the 10 forced-pick runs above — treat it as a data point, not a trend.</p>
+      <div class="ord"><span>When ${YOU} is named first: ${YOU} picked <b>${m.you.blvd} of 5</b> times</span><span>When ${esc(CS)} is named first: ${YOU} picked <b>${m.them.blvd} of 5</b> times</span></div>
+      <p class="ph">Why the model picked this way</p>
+      ${pts(x.why)}
+    </div><div class="cn"><h3>What each side is known for</h3>
+      <p class="ph">${esc(CS)}</p>${pts(x.rival)}
+      <p class="ph">${YOU}</p>${pts(x.you)}
     </div></div>`;
+}
+
+function renderSW() {
+  const row = ([t, rs]) => { const pc = Math.round((rs.length / RIV.length) * 100); return `<div class="swrow"><p>${esc(t)}</p><div class="swbar"><span class="swtrack"><span class="swfill" style="width:${pc}%"></span></span><span class="swpct">${pc}%</span><span class="swn">${rs.length} of ${RIV.length} matchups</span></div></div>`; };
+  const byCount = (a, b) => b[1].length - a[1].length;
+  $("#cpanel").innerHTML = `<div class="cp"><div class="swcard">
+      <h3>Consistent strengths</h3><p class="swsub">What the model keeps crediting ${YOU} for</p>
+      ${[...SW.strengths].sort(byCount).map(row).join("")}
+    </div><div class="swcard w">
+      <h3>Consistent weaknesses</h3><p class="swsub">Where the model keeps flagging ${YOU} or favoring rivals</p>
+      ${[...SW.weaknesses].sort(byCount).map(row).join("")}
+    </div></div>
+    <p class="note">Percentage = how many of the ${RIV.length} matchups bring the point up in at least one name order. Some points show on both sides because the model hedges: ease of use is credited in all six matchups, yet a learning curve is flagged in four. Dynatrace is listed even though it's only 1 of ${RIV.length}, because it's the only matchup where the pick flips. Based on one open answer per name order from gpt-4o with no web browsing, so treat it as a guide, not verified fact.</p>`;
 }
 
 function renderFacts() {
