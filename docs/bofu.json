@@ -3,7 +3,7 @@
   "title": "Bottom-of-funnel content tracker",
   "niche": "Cloud monitoring, observability, and application performance management (APM) software",
   "you": "Datadog",
-  "generated": "2026-11-02T15:54:23+00:00",
+  "generated": "2026-11-09T16:20:31+00:00",
   "state_updated": "2026-10-20T02:31:19+00:00",
   "repo": "nico497/Datadog"
  },
@@ -40,8 +40,8 @@
  "sites": [
   {
    "name": "Datadog",
-   "tracked": 3180,
-   "considered": 2917,
+   "tracked": 3195,
+   "considered": 2932,
    "own_pricing": "https://www.datadoghq.com/pricing/",
    "hubs": [
     "https://www.datadoghq.com/customers/"
@@ -49,15 +49,15 @@
   },
   {
    "name": "New Relic",
-   "tracked": 2651,
-   "considered": 1271,
+   "tracked": 2658,
+   "considered": 1277,
    "own_pricing": null,
    "hubs": []
   },
   {
    "name": "Dynatrace",
-   "tracked": 3791,
-   "considered": 2992,
+   "tracked": 3809,
+   "considered": 3008,
    "own_pricing": "https://www.dynatrace.com/pricing/",
    "hubs": [
     "https://www.dynatrace.com/customers/",
@@ -67,15 +67,15 @@
   },
   {
    "name": "Splunk",
-   "tracked": 1816,
+   "tracked": 1820,
    "considered": 0,
    "own_pricing": null,
    "hubs": []
   },
   {
    "name": "Grafana Labs",
-   "tracked": 22839,
-   "considered": 2342,
+   "tracked": 22897,
+   "considered": 2353,
    "own_pricing": "https://grafana.com/pricing/",
    "hubs": [
     "https://grafana.com/compare/"
@@ -83,15 +83,15 @@
   },
   {
    "name": "Elastic Observability",
-   "tracked": 48,
-   "considered": 48,
+   "tracked": 56,
+   "considered": 56,
    "own_pricing": null,
    "hubs": []
   },
   {
    "name": "Sumo Logic",
-   "tracked": 1896,
-   "considered": 1309,
+   "tracked": 1898,
+   "considered": 1310,
    "own_pricing": "https://www.sumologic.com/pricing",
    "hubs": [
     "https://www.sumologic.com/customers",
@@ -118,8 +118,8 @@
   "Lightstep"
  ],
  "excluded": {
-  "templated pages": 24940,
-  "webinars, glossary, events and category pages": 347,
+  "templated pages": 24993,
+  "webinars, glossary, events and category pages": 349,
   "translated pages": 55
  },
  "pages": [
@@ -1682,6 +1682,15 @@
   },
   {
    "site": "New Relic",
+   "url": "https://newrelic.com/blog/observability/datadog-pricing",
+   "path": "/blog/observability/datadog-pricing",
+   "type": "pricing",
+   "targets": [
+    "Datadog"
+   ]
+  },
+  {
+   "site": "New Relic",
    "url": "https://newrelic.com/blog/observability/datadog-vs-dynatrace",
    "path": "/blog/observability/datadog-vs-dynatrace",
    "type": "vs_rivals",
@@ -1717,6 +1726,15 @@
    "type": "vs_you",
    "targets": [
     "Prometheus"
+   ]
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/observability/datadog-vs-new-relic-pricing",
+   "path": "/blog/observability/datadog-vs-new-relic-pricing",
+   "type": "vs_you",
+   "targets": [
+    "Datadog"
    ]
   },
   {
