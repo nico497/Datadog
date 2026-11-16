@@ -2,16 +2,16 @@
  "meta": {
   "title": "Competitor Radar",
   "niche": "Cloud monitoring, observability, and application performance management (APM) software",
-  "updated": "2026-11-09T16:13:37+00:00",
+  "updated": "2026-11-16T15:42:03+00:00",
   "window_days": 30,
   "repo": "nico497/Datadog",
   "first_run": false,
   "errors": [],
-  "pending": 338,
+  "pending": 288,
   "analysis_stale": false,
   "per_run": 200,
   "tracking_since": "2026-10-20T02:31:19+00:00",
-  "tracking_days": 20
+  "tracking_days": 27
  },
  "types": [
   [
@@ -48,118 +48,110 @@
   ]
  ],
  "analysis": {
-  "summary": "Datadog publishes the most hands-on guides, led by AI agent observability. Rivals attack with comparison pages and refresh old content, while Datadog published no comparisons and updated no old pages.",
+  "summary": "Everyone is pushing AI observability and AI agents. Datadog publishes the most new pages and leans on how-tos, while New Relic attacks Datadog directly with comparison pages.",
   "points": [
    {
-    "text": "New Relic published five pages with Datadog in the title, two on pricing. Datadog published no comparison pages.",
+    "text": "New Relic published 16 comparison pages, including two on Datadog pricing, so buyers searching for Datadog meet New Relic's framing of the bill first.",
     "names": [
-     "Datadog",
      "New Relic"
     ]
    },
    {
-    "text": "Datadog shipped 36 new pages and updated none. Dynatrace updated 20 older pages and New Relic updated 15.",
+    "text": "Grafana published three 'Grafana vs' AI agent observability pages (LangSmith, Langfuse, Arize) plus one against Dynatrace, going after AI-tool buyers.",
     "names": [
-     "Datadog",
-     "New Relic",
-     "Dynatrace"
+     "Grafana Labs"
     ]
    },
    {
-    "text": "AI agent observability is the hottest shared topic. Datadog has many guides on it, and Grafana, New Relic, Dynatrace and Sumo Logic all push it too.",
+    "text": "Datadog has 51 new pages and 0 updates, so older content may be going stale while rivals refresh theirs.",
     "names": [
      "Datadog",
      "New Relic",
-     "Dynatrace",
-     "Grafana Labs",
-     "Sumo Logic"
+     "Grafana Labs"
     ]
    }
   ],
   "plays": {
    "Datadog": {
-    "play": "Hands-on guides for AI agent monitoring, RUM and Kubernetes, plus customer stories and product news.",
-    "aimed": "Engineers learning, comparing and buying"
+    "play": "Mass of how-tos and product news on AI agents, Kubernetes, RUM, security and data quality.",
+    "aimed": "DevOps, platform and security engineers"
    },
    "New Relic": {
-    "play": "Comparison pages naming Datadog, 'best tools' lists, and AI-operations opinion pieces; 15 older pages refreshed.",
-    "aimed": "Buyers weighing Datadog and other rivals"
+    "play": "Refreshes old comparison and 'best tools' guides, many naming Datadog, plus AI-and-context opinion pieces.",
+    "aimed": "Buyers comparing tools and pricing"
    },
    "Dynatrace": {
-    "play": "Biggest output: 69 new pages, release notes, partner launches, security alerts, ROI research and customer stories.",
-    "aimed": "Enterprise buyers and existing customers"
+    "play": "Big launch waves, research, ROI proof, customer stories, and webinars for retail and healthcare.",
+    "aimed": "Enterprise buyers and executives"
    },
    "Splunk": {
-    "play": "No new or updated pages this period; 8 old pages removed.",
-    "aimed": "No clear audience"
+    "play": "No new or updated pages this period; 8 pages removed, including state-of-observability reports.",
+    "aimed": "Nobody right now"
    },
    "Grafana Labs": {
-    "play": "Comparison pages against rivals and AI agent tools, plus steady product releases for Grafana Cloud.",
-    "aimed": "Cost-conscious teams comparing platforms"
+    "play": "Product news, head-to-head AI observability comparisons, and Grafana Assistant and AI agent features.",
+    "aimed": "Engineers choosing open, cost-aware tooling"
    },
    "Elastic Observability": {
-    "play": "Small output of customer stories, release notes and security pieces for government and defense.",
-    "aimed": "Public sector and security teams"
+    "play": "Mostly Elastic Stack release notes, plus security and public-sector stories. Observability content is thin.",
+    "aimed": "Existing Elastic users and public sector"
    },
    "Sumo Logic": {
-    "play": "Pushing DojoAI agents for security and operations, with new AI pricing credits.",
+    "play": "Pushes DojoAI agents, security operations (SOC) automation, and Claude and AWS integrations.",
     "aimed": "Security and SRE teams"
    }
   },
   "shared": [
    {
     "title": "AI agent observability",
-    "text": "Monitoring AI agents is a focus for Datadog, Grafana (3 rival comparisons), New Relic, Dynatrace and Sumo Logic. Datadog has depth here, but the topic is crowded.",
+    "text": "Datadog, Grafana, New Relic and Sumo Logic all publish on monitoring AI agents and LLMs. Datadog needs to prove it is the default for this.",
     "names": [
      "Datadog",
-     "New Relic",
-     "Dynatrace",
-     "Grafana Labs",
-     "Sumo Logic"
-    ]
-   },
-   {
-    "title": "Head-to-head comparison pages",
-    "text": "New Relic has 12 and Grafana has 8, both naming rivals. Sumo Logic has one. Rivals are shaping how buyers compare platforms; Datadog has none.",
-    "names": [
      "New Relic",
      "Grafana Labs",
      "Sumo Logic"
     ]
    },
    {
-    "title": "AI that investigates incidents",
-    "text": "Each sells AI that finds root causes: Datadog Bits, Grafana Investigations, Sumo Logic Root Cause Agent, Dynatrace with ServiceNow, New Relic autonomous operations.",
+    "title": "Rapid security-flaw write-ups",
+    "text": "Datadog and Sumo Logic both posted PHP2Shell detection guides, and Dynatrace covered Apache and Node.js flaws. Fast response posts show up as a play.",
     "names": [
      "Datadog",
-     "New Relic",
      "Dynatrace",
-     "Grafana Labs",
      "Sumo Logic"
+    ]
+   },
+   {
+    "title": "Analyst badge news",
+    "text": "Datadog and Dynatrace both announced Leader status in the Forrester AIOps Wave Q4 2026. Elastic called itself a Strong Performer.",
+    "names": [
+     "Datadog",
+     "Dynatrace",
+     "Elastic Observability"
     ]
    }
   ],
   "gaps": [
    {
-    "title": "Datadog pricing explainer",
-    "text": "New Relic wrote two Datadog pricing pages. Datadog's own plain-English pricing and cost-control guide could take that topic back."
+    "title": "Pricing and cost clarity",
+    "text": "New Relic owns two Datadog pricing pages. Datadog has no visible pricing-explainer page in this data, so it could write its own."
    },
    {
-    "title": "Migration guides from rivals",
-    "text": "Only Datadog has one (Splunk to Datadog). Guides for moving from New Relic, Dynatrace or Grafana are open."
+    "title": "Datadog vs. rivals pages",
+    "text": "Datadog has no comparison pages in this data, while New Relic has 16 and Grafana has 9. Honest comparison pages could win buyers."
    },
    {
-    "title": "Yearly research or ROI study",
-    "text": "Dynatrace has 6 research pieces, New Relic 2, Grafana 2. Datadog has none in this data, so a flagship report is open."
+    "title": "Original research and ROI proof",
+    "text": "Datadog has 1 research page against Dynatrace's 10. A recurring report or customer ROI study could fill the proof gap."
    }
   ],
   "versus": {
-   "New Relic": "Targets Datadog buyers with five Datadog-named pages. Datadog has no comparison pages, and updated no old pages, versus New Relic's 15.",
-   "Dynatrace": "Out-publishes Datadog, 69 new pages to 36, and also updates old pages and runs research. Datadog did neither this period.",
-   "Splunk": "Published nothing new this period, while Datadog added 36 pages, including a guide to migrate Splunk queries and alerts to Datadog.",
-   "Grafana Labs": "Publishes 8 comparison pages and AI agent tool comparisons. None in this data names Datadog, which has no comparison pages itself.",
-   "Elastic Observability": "Much smaller, with 18 new pages mostly on security, government and release notes. Datadog covers far more observability how-tos.",
-   "Sumo Logic": "Leans on DojoAI security and agent news, with 8 new pages. Datadog has more hands-on guides and customer stories."
+   "New Relic": "Refreshes 29 old pages and writes 16 comparisons, including on Datadog. Datadog publishes new how-tos and publishes no comparisons or updates.",
+   "Dynatrace": "Publishes 98 new pages with launch waves, research and case studies. Datadog publishes fewer pages, mostly practical how-tos, with little research.",
+   "Splunk": "Published nothing this period, so Datadog has the content field to itself against it.",
+   "Grafana Labs": "Matches Datadog on volume with 69 new pages, but adds direct 'vs' pages on AI agent tools that Datadog lacks.",
+   "Elastic Observability": "Mostly release notes on a small 80-page site. Datadog covers observability in far more depth and is a weak content threat.",
+   "Sumo Logic": "Small output of 7 new pages, centred on DojoAI and security. Datadog is much broader and more active."
   }
  },
  "sites": [
@@ -167,25 +159,25 @@
    "name": "Datadog",
    "site": "https://www.datadoghq.com",
    "you": true,
-   "n": 36,
-   "site_pages": 3194,
+   "n": 51,
+   "site_pages": 3210,
    "n_prev": 0,
    "refreshed": 0,
    "mix": {
     "compare": 0,
-    "howto": 13,
+    "howto": 22,
     "list": 0,
-    "research": 0,
+    "research": 1,
     "case": 7,
     "opinion": 1,
-    "news": 8,
-    "landing": 7
+    "news": 11,
+    "landing": 9
    },
    "stages": {
-    "learning": 14,
-    "comparing": 9,
-    "buying": 9,
-    "customers": 4
+    "learning": 21,
+    "comparing": 11,
+    "buying": 13,
+    "customers": 6
    },
    "topics": [
     "cloud monitoring reduces mttr",
@@ -195,62 +187,64 @@
     "optimize ai costs with agent observability"
    ],
    "unclassified": 0,
-   "removed": 1,
+   "removed": 3,
    "removed_titles": [
-    "Synthetic monitoring"
+    "Real user monitoring",
+    "Synthetic monitoring",
+    "Mobile rum"
    ],
-   "new": 36,
+   "new": 51,
    "updated": 0,
    "bulk": [],
    "programmatic": [
     {
      "section": "about",
-     "pages": 262,
-     "new": 1
+     "pages": 263,
+     "new": 2
     }
    ],
    "ok": true,
    "error": null,
    "method": "sitemap",
    "url": "https://www.datadoghq.com/sitemap.xml",
-   "pages": 3192,
-   "undated": 0,
-   "new_urls": 15,
-   "play": "Hands-on guides for AI agent monitoring, RUM and Kubernetes, plus customer stories and product news.",
-   "aimed": "Engineers learning, comparing and buying"
+   "pages": 3210,
+   "undated": 3210,
+   "new_urls": 18,
+   "play": "Mass of how-tos and product news on AI agents, Kubernetes, RUM, security and data quality.",
+   "aimed": "DevOps, platform and security engineers"
   },
   {
    "name": "New Relic",
    "site": "https://newrelic.com",
    "you": false,
-   "n": 40,
-   "site_pages": 2640,
-   "n_prev": 36,
-   "refreshed": 15,
+   "n": 48,
+   "site_pages": 2642,
+   "n_prev": 29,
+   "refreshed": 29,
    "mix": {
-    "compare": 12,
-    "howto": 4,
+    "compare": 16,
+    "howto": 7,
     "list": 0,
     "research": 2,
-    "case": 2,
-    "opinion": 6,
-    "news": 13,
+    "case": 3,
+    "opinion": 5,
+    "news": 14,
     "landing": 1
    },
    "stages": {
-    "learning": 15,
-    "comparing": 9,
-    "buying": 10,
-    "customers": 6
+    "learning": 20,
+    "comparing": 12,
+    "buying": 9,
+    "customers": 7
    },
    "topics": [
     "enterprise ai operational intelligence competitive advantage",
+    "ai reshaping observability and operations",
     "alert fatigue reduction with observability",
     "japan region launch and data sovereignty",
-    "autonomous operations ai detection observability",
-    "ai observability and trusted context"
+    "apm dashboard setup and usage"
    ],
-   "unclassified": 1,
+   "unclassified": 3,
    "removed": 18,
    "removed_titles": [
     "New york public library nypl digital observability",
@@ -269,8 +263,8 @@
     "Fintech pomelo build infrastructure",
     "Careervillage ai monitoring nonprofit"
    ],
-   "new": 25,
-   "updated": 15,
+   "new": 19,
+   "updated": 29,
    "bulk": [],
    "programmatic": [
     {
@@ -280,8 +274,8 @@
     },
     {
      "section": "press-release",
-     "pages": 369,
-     "new": 4
+     "pages": 370,
+     "new": 5
     },
     {
      "section": "press-releases",
@@ -293,55 +287,57 @@
    "error": null,
    "method": "sitemap",
    "url": "https://newrelic.com/sitemap.xml",
-   "pages": 2640,
+   "pages": 2642,
    "undated": 0,
-   "new_urls": 7,
-   "play": "Comparison pages naming Datadog, 'best tools' lists, and AI-operations opinion pieces; 15 older pages refreshed.",
-   "aimed": "Buyers weighing Datadog and other rivals"
+   "new_urls": 2,
+   "play": "Refreshes old comparison and 'best tools' guides, many naming Datadog, plus AI-and-context opinion pieces.",
+   "aimed": "Buyers comparing tools and pricing"
   },
   {
    "name": "Dynatrace",
    "site": "https://www.dynatrace.com",
    "you": false,
-   "n": 89,
-   "site_pages": 3803,
-   "n_prev": 154,
-   "refreshed": 24,
+   "n": 122,
+   "site_pages": 3830,
+   "n_prev": 189,
+   "refreshed": 28,
    "mix": {
     "compare": 0,
-    "howto": 12,
+    "howto": 7,
     "list": 1,
-    "research": 6,
-    "case": 9,
-    "opinion": 0,
-    "news": 25,
-    "landing": 13
+    "research": 10,
+    "case": 13,
+    "opinion": 2,
+    "news": 26,
+    "landing": 23
    },
    "stages": {
-    "learning": 32,
-    "comparing": 5,
-    "buying": 16,
-    "customers": 13
+    "learning": 34,
+    "comparing": 11,
+    "buying": 20,
+    "customers": 17
    },
    "topics": [
+    "azure monitoring with dynatrace",
     "google cloud monitoring and observability",
     "ai transforming log management",
-    "react2shell cve vulnerability detection remediation",
-    "unified observability roi study",
-    "snowflake observability product launch"
+    "perform 2027 conference training sessions",
+    "react2shell cve vulnerability detection remediation"
    ],
-   "unclassified": 103,
-   "removed": 6,
+   "unclassified": 66,
+   "removed": 8,
    "removed_titles": [
+    "Google Cloud Monitoring monitoring & observability | Dynatrace Hub",
     "Dynatrace hot labs india",
     "Partner tech talk bindplane technical overview 19961266",
     "Inetum",
     "Ai powered kubernetes observability best practices in 2026",
+    "Take control of your observability tool sprawl 18273547",
     "Implementing ai observability with dynatrace",
     "From Logs to Answers: How AI is Changing Observability"
    ],
-   "new": 69,
-   "updated": 20,
+   "new": 98,
+   "updated": 24,
    "bulk": [
     {
      "type": "edit",
@@ -371,12 +367,12 @@
     {
      "type": "edit",
      "day": "2026-11-02",
-     "pages": 39
+     "pages": 35
     },
     {
      "type": "edit",
      "day": "2026-11-09",
-     "pages": 29
+     "pages": 28
     }
    ],
    "programmatic": [
@@ -387,8 +383,8 @@
     },
     {
      "section": "knowledge-base",
-     "pages": 180,
-     "new": 2
+     "pages": 181,
+     "new": 3
     },
     {
      "section": "platform",
@@ -397,26 +393,26 @@
     },
     {
      "section": "partners",
-     "pages": 110,
-     "new": 9
+     "pages": 111,
+     "new": 10
     }
    ],
    "ok": true,
    "error": null,
    "method": "sitemap",
    "url": "https://www.dynatrace.com/sitemap.xml",
-   "pages": 3800,
+   "pages": 3825,
    "undated": 18,
-   "new_urls": 18,
-   "play": "Biggest output: 69 new pages, release notes, partner launches, security alerts, ROI research and customer stories.",
-   "aimed": "Enterprise buyers and existing customers"
+   "new_urls": 29,
+   "play": "Big launch waves, research, ROI proof, customer stories, and webinars for retail and healthcare.",
+   "aimed": "Enterprise buyers and executives"
   },
   {
    "name": "Splunk",
    "site": "https://www.splunk.com",
    "you": false,
    "n": 0,
-   "site_pages": 1812,
+   "site_pages": 1815,
    "n_prev": 0,
    "refreshed": 0,
    "mix": {
@@ -455,7 +451,7 @@
     {
      "section": "en_us",
      "pages": 1812,
-     "new": 10
+     "new": 13
     }
    ],
    "ok": true,
@@ -464,43 +460,43 @@
    "url": "https://www.splunk.com/en_us/sitemap.xml",
    "pages": 1812,
    "undated": 0,
-   "new_urls": 4,
-   "play": "No new or updated pages this period; 8 old pages removed.",
-   "aimed": "No clear audience"
+   "new_urls": 3,
+   "play": "No new or updated pages this period; 8 pages removed, including state-of-observability reports.",
+   "aimed": "Nobody right now"
   },
   {
    "name": "Grafana Labs",
    "site": "https://grafana.com",
    "you": false,
-   "n": 84,
-   "site_pages": 22577,
-   "n_prev": 32,
-   "refreshed": 15,
+   "n": 92,
+   "site_pages": 22695,
+   "n_prev": 30,
+   "refreshed": 25,
    "mix": {
-    "compare": 8,
-    "howto": 7,
+    "compare": 9,
+    "howto": 8,
     "list": 0,
-    "research": 2,
-    "case": 2,
-    "opinion": 0,
-    "news": 17,
-    "landing": 14
+    "research": 4,
+    "case": 4,
+    "opinion": 1,
+    "news": 20,
+    "landing": 20
    },
    "stages": {
-    "learning": 14,
-    "comparing": 7,
-    "buying": 18,
-    "customers": 11
+    "learning": 18,
+    "comparing": 9,
+    "buying": 25,
+    "customers": 14
    },
    "topics": [
     "grafana mobile app observability",
     "adaptive metrics auto-apply modes",
     "incident response workflow with grafana irm",
     "session replay frontend observability feature",
-    "slos for ai agent quality monitoring"
+    "observability survey industry trends"
    ],
-   "unclassified": 35,
-   "removed": 320,
+   "unclassified": 31,
+   "removed": 330,
    "removed_titles": [
     "3894 apache",
     "25479 jmx exporter",
@@ -510,47 +506,47 @@
     "Enable and disable tools",
     "Generate deeplinks to grafana",
     "Command line flags",
-    "20345 carbonio pgpool2",
-    "Set up before",
-    "Usage limits",
-    "Set up code",
-    "Git sync setup",
-    "Performance",
-    "Troubleshooting"
+    "Security",
+    "Cilium compatibility",
+    "Distributed traces",
+    "Beyla dashboard",
+    "Cardinality",
+    "Requesttime",
+    "Obi"
    ],
-   "new": 71,
-   "updated": 13,
+   "new": 69,
+   "updated": 23,
    "bulk": [],
    "programmatic": [
     {
      "section": "grafana",
-     "pages": 10498,
-     "new": 36
+     "pages": 10509,
+     "new": 48
     },
     {
      "section": "docs",
-     "pages": 7662,
-     "new": 373
+     "pages": 7740,
+     "new": 466
     },
     {
      "section": "whats-new",
-     "pages": 809,
-     "new": 27
+     "pages": 812,
+     "new": 30
     },
     {
      "section": "events",
-     "pages": 603,
-     "new": 73
+     "pages": 605,
+     "new": 75
     },
     {
      "section": "security",
-     "pages": 199,
-     "new": 8
+     "pages": 212,
+     "new": 21
     },
     {
      "section": "press",
-     "pages": 161,
-     "new": 81
+     "pages": 162,
+     "new": 82
     },
     {
      "section": "webinar",
@@ -567,56 +563,63 @@
    "error": null,
    "method": "sitemap",
    "url": "https://grafana.com/sitemap.xml",
-   "pages": 22567,
+   "pages": 22673,
    "undated": 0,
-   "new_urls": 58,
-   "play": "Comparison pages against rivals and AI agent tools, plus steady product releases for Grafana Cloud.",
-   "aimed": "Cost-conscious teams comparing platforms"
+   "new_urls": 128,
+   "play": "Product news, head-to-head AI observability comparisons, and Grafana Assistant and AI agent features.",
+   "aimed": "Engineers choosing open, cost-aware tooling"
   },
   {
    "name": "Elastic Observability",
    "site": "https://www.elastic.co/observability",
    "you": false,
-   "n": 18,
-   "site_pages": 48,
-   "n_prev": 9,
+   "n": 56,
+   "site_pages": 80,
+   "n_prev": 4,
    "refreshed": 0,
    "mix": {
     "compare": 0,
     "howto": 0,
     "list": 0,
     "research": 0,
-    "case": 4,
+    "case": 3,
     "opinion": 2,
     "news": 6,
     "landing": 0
    },
    "stages": {
-    "learning": 6,
+    "learning": 4,
     "comparing": 1,
     "buying": 1,
-    "customers": 4
+    "customers": 5
    },
    "topics": [
-    "elastic security google distributed cloud integration",
-    "data integration policing systems",
     "elastic audi revolut f1 observability",
     "jina model inference nvidia gpu acceleration",
-    "elastic stack 9.5.6 release"
+    "elastic stack 9.5.6 release",
+    "elastic stack 9.4.9 release",
+    "elastic stack release update"
    ],
-   "unclassified": 6,
-   "removed": 8,
+   "unclassified": 45,
+   "removed": 16,
    "removed_titles": [
+    "Bring your own key to existing Elastic Cloud deployments",
+    "How state and local agencies can get ahead of fraud starting with the data they already have",
+    "Elastic named a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Search",
+    "Elastic Stack 8.19.23 released",
+    "Elastic Stack 9.4.8 released",
+    "Elastic Stack 9.5.5 released",
+    "Elastic Security and OpenAI GPT Cyber models: What frontier cyber defense means for the public sector",
+    "From reactive to resilient: Findings from the Total Economic Impact of Elastic Observability 2026",
     "When AI agents swarm, can banks keep up?",
     "Building production-ready AI in India",
     "Elastic Cloud Serverless: Another Azure region",
     "DevRel newsletter — September 2026",
     "Elastic Cloud on Azure gets a speed boost: Compute-optimized instances on Azure Cobalt ARM",
     "Trust, but verify: Atomic claim checking against LLM hallucinations",
-    "Elastic Stack 8.19.22 released",
-    "Elastic 9.5: Columnar, VectorDB index mode & auto-calibration, and AI-driven alert triage"
+    "Elastic Stack 8.19.22 released"
    ],
-   "new": 18,
+   "new": 56,
    "updated": 0,
    "bulk": [],
    "programmatic": [],
@@ -626,44 +629,45 @@
    "url": "https://www.elastic.co/observability/blog/feed",
    "pages": 40,
    "undated": 0,
-   "new_urls": 8,
-   "play": "Small output of customer stories, release notes and security pieces for government and defense.",
-   "aimed": "Public sector and security teams"
+   "new_urls": 40,
+   "play": "Mostly Elastic Stack release notes, plus security and public-sector stories. Observability content is thin.",
+   "aimed": "Existing Elastic users and public sector"
   },
   {
    "name": "Sumo Logic",
    "site": "https://www.sumologic.com",
    "you": false,
-   "n": 25,
-   "site_pages": 1871,
-   "n_prev": 25,
-   "refreshed": 24,
+   "n": 21,
+   "site_pages": 1862,
+   "n_prev": 68,
+   "refreshed": 18,
    "mix": {
-    "compare": 1,
-    "howto": 1,
-    "list": 1,
+    "compare": 0,
+    "howto": 2,
+    "list": 2,
     "research": 0,
     "case": 0,
     "opinion": 2,
     "news": 13,
-    "landing": 6
+    "landing": 2
    },
    "stages": {
-    "learning": 9,
-    "comparing": 2,
-    "buying": 6,
+    "learning": 10,
+    "comparing": 1,
+    "buying": 3,
     "customers": 7
    },
    "topics": [
     "llm and ai agent observability",
-    "dojoai agentic ai platform",
-    "ai-powered observability and security",
-    "app reliability observability cloud monitoring",
-    "splunk vs sumo logic comparison"
+    "security threats response center",
+    "ai-powered security incident summarization",
+    "dojoai agents and ai features",
+    "siem best practices cloud security"
    ],
-   "unclassified": 1,
-   "removed": 27,
+   "unclassified": 0,
+   "removed": 37,
    "removed_titles": [
+    "Customers",
     "Real user monitoring",
     "Multi cloud",
     "Security analyst faq career cybersecurity",
@@ -677,17 +681,11 @@
     "Build modern soc",
     "Cloud infrastructure security aws",
     "Case study genesys journey to the cloud devops excellence",
-    "Application performance management microservices",
-    "Automating workflows apis"
+    "Application performance management microservices"
    ],
-   "new": 8,
-   "updated": 17,
+   "new": 7,
+   "updated": 14,
    "bulk": [
-    {
-     "type": "edit",
-     "day": "2026-10-15",
-     "pages": 31
-    },
     {
      "type": "edit",
      "day": "2026-10-19",
@@ -710,27 +708,1077 @@
    "error": null,
    "method": "sitemap",
    "url": "https://www.sumologic.com/sitemap_index.xml",
-   "pages": 1861,
+   "pages": 1857,
    "undated": 0,
-   "new_urls": 2,
-   "play": "Pushing DojoAI agents for security and operations, with new AI pricing credits.",
+   "new_urls": 1,
+   "play": "Pushes DojoAI agents, security operations (SOC) automation, and Claude and AWS integrations.",
    "aimed": "Security and SRE teams"
   }
  ],
  "pages": [
   {
    "site": "New Relic",
-   "url": "https://newrelic.com/blog/ai/new-relic-ground-truth-enterprise-ai",
-   "title": "The Next Competitive Advantage in Enterprise AI",
-   "date": "2026-11-09T16:13:37+00:00",
+   "url": "https://newrelic.com/blog/ai/observability-built-for-humans-ai-changes-everything",
+   "title": "Observability Was Built for Humans. AI Changes Everything.",
+   "date": "2026-11-16T15:42:03+00:00",
    "kind": "updated",
-   "published": "2026-09-15T00:00:00+00:00",
+   "published": "2026-10-06T00:00:00+00:00",
    "first_seen": "2026-10-20T02:31:19+00:00",
    "type": "opinion",
    "stage": "learning",
-   "topic": "Enterprise AI operational intelligence competitive advantage",
-   "search": "enterprise AI operational intelligence trusted",
-   "why": "Positions New Relic as thought leader in emerging AI operations market."
+   "topic": "AI reshaping observability and operations",
+   "search": "AI observability autonomous operations",
+   "why": "Establishes New Relic as thought leader on AI's transformative impact on observability practices."
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/log/centralized-log-management",
+   "title": "Centralized Log Management: A Comprehensive Guide for Engineers",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-09-17T00:00:00+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Centralized log management for engineers",
+   "search": "centralized log management guide",
+   "why": "Educates engineers on CLM benefits and implementation to build awareness of New Relic's log management capabilities."
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/observability/how-to-build-an-sre-agent-that-actually-works-without-blowing-the-token-budget",
+   "title": "How to Build an SRE Agent That Actually Works (Without Blowing the Token Budget)",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-09-22T00:00:00+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Build SRE agent with AI",
+   "search": "how to build SRE agent without high token costs",
+   "why": "Shows how AI agents can reduce operational toil and alert fatigue for SRE teams."
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/news/introducing-ai-observability-for-opentelemetry",
+   "title": "Introducing AI Observability for OpenTelemetry",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-10-06T00:00:00+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "news",
+   "stage": "learning",
+   "topic": "AI observability OpenTelemetry integration",
+   "search": "OpenTelemetry AI observability monitoring",
+   "why": "Announces new AI observability feature for OpenTelemetry to establish thought leadership."
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/observability/incident-management-tools",
+   "title": "9 Incident Management Tools Behind Faster MTTR",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-10-05T00:00:00+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "incident management tools comparison",
+   "search": "incident management tools for DevOps teams",
+   "why": "Captures teams evaluating incident management solutions against multiple competitors."
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/observability/pagerduty-alternatives",
+   "title": "7 PagerDuty Alternatives for Modern Incident Response Teams",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-10-02T00:00:00+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "PagerDuty alternatives for incident response",
+   "search": "PagerDuty alternatives incident management",
+   "why": "Positions New Relic as a complementary detection layer to on-call tools, capturing buyers evaluating incident response solutions."
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/infrastructure-monitoring/new-relic-database-360-ga",
+   "title": "Eliminate the Database War Room with New Relic Database 360",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-10-13T00:00:00+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Database 360 general availability",
+   "search": "New Relic Database 360 announcement",
+   "why": "Announces new Database 360 feature to existing users and prospects researching database observability capabilities."
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/news/anthropic-otel-ai-observability",
+   "title": "Claude Platform Tracing in New Relic",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-10-14T00:00:00+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "news",
+   "stage": "learning",
+   "topic": "Claude Platform tracing integration",
+   "search": "Claude Platform tracing New Relic observability",
+   "why": "Announces native OpenTelemetry support for Claude agents in New Relic."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/news/blog/what-is-synthetic-monitoring/",
+   "title": "What is synthetic monitoring?",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-10-16T18:41:07+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Synthetic monitoring explained",
+   "search": "what is synthetic monitoring",
+   "why": "Establishes Dynatrace as authority; captures early-stage research on monitoring technology."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/resources/retail-in-real-time-webinar-series-20033620/",
+   "title": "Retail in Real Time Webinar Series",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-10-16T21:36:53+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "Retail observability webinar series",
+   "search": "retail observability webinar series",
+   "why": "Educates retailers on using observability to improve customer experience and protect revenue."
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/blog/get-observability-in-your-pocket-with-the-grafana-mobile-app/",
+   "title": "Get observability in your pocket with the Grafana mobile app | Grafana Labs",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-10-15T00:00:00+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Grafana mobile app observability",
+   "search": "Grafana mobile app observability incident response",
+   "why": "Demonstrates new mobile features to existing Grafana users and on-call teams."
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/blog/coverage-first-or-cost-first-two-ways-to-automatically-apply-adaptive-metrics-recommendations/",
+   "title": "Coverage-first or cost-first: two ways to automatically apply Adaptive Metrics' recommendations  | Grafana Labs",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-10-15T00:00:00+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Adaptive Metrics auto-apply modes",
+   "search": "Adaptive Metrics coverage-first cost-first",
+   "why": "Announces new feature release to existing Grafana customers using Adaptive Metrics."
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/blog/go-from-alert-to-post-incident-review-with-grafana-cloud-irm-and-ai/",
+   "title": "Go from alert to post-incident review with Grafana Cloud IRM and AI | Grafana Labs",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-10-14T00:00:00+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "case",
+   "stage": "learning",
+   "topic": "Incident response workflow with Grafana IRM",
+   "search": "incident management workflow best practices",
+   "why": "Shows workflow value of IRM and AI for incident handling, educates about modern incident response practices."
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/blog/visual-playback-of-the-user-journey-introducing-session-replay-in-grafana-cloud-frontend-observability/",
+   "title": "Visual playback of the user journey: Introducing Session Replay in Grafana Cloud Frontend Observability | Grafana Labs",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-10-14T00:00:00+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Session Replay frontend observability feature",
+   "search": "Session Replay Grafana Cloud Frontend Observability",
+   "why": "Announces Session Replay feature launch to existing Grafana Cloud customers."
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/blog/take-grafana-labs-5th-annual-observability-survey/",
+   "title": "Take Grafana Labs' 5th annual Observability Survey | Grafana Labs",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-10-08T00:00:00+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "research",
+   "stage": "learning",
+   "topic": "Observability survey industry trends",
+   "search": "observability survey 2026 industry trends",
+   "why": "Builds authority by conducting large community survey on observability practices."
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/blog/manage-your-opentelemetry-collectors-with-fleet-management-in-grafana-cloud/",
+   "title": "Manage your OpenTelemetry Collectors with Fleet Management in Grafana Cloud | Grafana Labs",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-10-08T00:00:00+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "OpenTelemetry collector fleet management",
+   "search": "manage OpenTelemetry collectors fleet management",
+   "why": "Announces OpAMP support for existing OTel users, reducing migration friction to Grafana."
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/blog/10-best-practices-cloud-siem",
+   "title": "Top 10 SIEM best practices",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-01-13T23:07:28+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "list",
+   "stage": "learning",
+   "topic": "SIEM best practices cloud security",
+   "search": "SIEM best practices cloud security",
+   "why": "Establishes authority in cloud SIEM while subtly positioning Sumo Logic's unified approach."
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/videos/power-of-dojo-in-amazon-web-services",
+   "title": "The Power of DojoAI in Amazon Web Services",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": null,
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "news",
+   "stage": "learning",
+   "topic": "DojoAI security analytics platform AWS",
+   "search": "DojoAI Amazon Web Services security",
+   "why": "Showcases AI-powered security feature to educate early-stage prospects on capabilities."
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/newsroom/sumo-logic-brings-comprehensive-visibility-across-claude-ecosystem-via-new-integration-with-claude-compliance-api",
+   "title": "Sumo Logic Brings Comprehensive Visibility Across Claude Ecosystem via New Integration with the Claude Compliance API",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-05-21T17:05:00+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Claude Compliance API integration",
+   "search": "Sumo Logic Claude Compliance API integration",
+   "why": "Announces new feature enabling existing customers to monitor AI tool compliance."
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/newsroom/sumo-logic-accelerates-agentic-ai-platform-with-new-executive-leadership",
+   "title": "Sumo Logic Accelerates Agentic AI Platform with New Executive Leadership",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-07-28T12:55:00+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Executive leadership appointment agentic AI",
+   "search": "Sumo Logic new CEO executive leadership",
+   "why": "Demonstrates leadership continuity and AI strategy to reassure existing customers and partners."
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/newsroom/sumo-logic-academy-expands-certification-program-to-improve-critical-skills-for-devsecops-teams",
+   "title": "Sumo Logic Academy Expands Certification Program to Improve Critical Skills for Security and Operations Teams",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2025-10-07T12:39:57+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Sumo Logic Academy certification program",
+   "search": "Sumo Logic Academy certification program",
+   "why": "Announces expanded certification program to keep customers trained and engaged."
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/observability/datadog-vs-splunk",
+   "title": "Datadog vs. Splunk: Which Fits Your Observability Stack in 2026?",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-10-23T00:00:00+00:00",
+   "first_seen": "2026-10-26T12:58:25+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "Datadog vs Splunk observability",
+   "search": "Datadog vs Splunk comparison",
+   "why": "Catches buyers comparing Datadog and Splunk, showing New Relic as unified alternative."
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/observability/datadog-vs-dynatrace",
+   "title": "Datadog vs. Dynatrace: An Honest Comparison for Cloud-Native Teams (2026)",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-10-22T00:00:00+00:00",
+   "first_seen": "2026-10-26T12:58:25+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "Datadog vs Dynatrace monitoring",
+   "search": "Datadog vs Dynatrace comparison",
+   "why": "Catches buyers comparing two rivals and positions New Relic as superior alternative."
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/observability/platform-engineering-tools",
+   "title": "Platform Engineering Tools: A Buyer's Guide to the Internal Developer Platform Stack",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-10-22T00:00:00+00:00",
+   "first_seen": "2026-10-26T12:58:25+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "Platform engineering tools buyer's guide",
+   "search": "platform engineering tools internal developer platform",
+   "why": "Positions New Relic's observability as essential to platform engineering stacks."
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/blog/six-improvements-that-make-grafana-assistant-better-at-helping-your-workflows/",
+   "title": "Six improvements that make Grafana Assistant better at helping your workflows | Grafana Labs",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-10-19T00:00:00+00:00",
+   "first_seen": "2026-10-26T12:58:25+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Grafana Assistant AI improvements",
+   "search": "Grafana Assistant AI improvements features",
+   "why": "Showcases product improvements to existing cloud customers and demonstrates AI/agent advancement."
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/blog/grafana-marketplace/",
+   "title": "Expand what’s possible with Grafana: The Grafana Marketplace is now generally available | Grafana Labs",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-10-20T00:00:00+00:00",
+   "first_seen": "2026-10-26T12:58:25+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Grafana Marketplace general availability announcement",
+   "search": "Grafana Marketplace plugins now available",
+   "why": "Announces new marketplace feature to existing Grafana users and partners."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/technologies/crowdstrike-monitoring/",
+   "title": "CrowdStrike + Dynatrace",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-10-30T12:00:27+00:00",
+   "first_seen": "2026-11-02T15:46:15+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "CrowdStrike Dynatrace integration",
+   "search": "CrowdStrike Dynatrace integration",
+   "why": "Showcases partnership integration to buyers evaluating security-observability stacks together."
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/solutions/data-pipelines",
+   "title": "Data pipelines | AI-powered data pipeline management",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-09-21T12:33:32+00:00",
+   "first_seen": "2026-11-02T15:46:15+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "AI-powered data pipeline management",
+   "search": "data pipeline management tools",
+   "why": "Showcases Sumo Logic's data pipelines feature to buyers evaluating solutions for cost control."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/news/blog/kubernetes-security-essentials-network-misconfigurations-the-invisible-attack-surface/",
+   "title": "Kubernetes security essentials: Network misconfigurations – The invisible attack surface",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-11-05T16:30:20+00:00",
+   "first_seen": "2026-11-09T16:13:37+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Kubernetes network security misconfigurations",
+   "search": "Kubernetes network security misconfigurations",
+   "why": "Educates readers on Kubernetes security risks and Dynatrace's detection capabilities."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/resources/dynatrace-deloitte-scale-agentic-ai-with-confidence-20193588/",
+   "title": "Dynatrace + Deloitte:  Scale agentic AI with confidence",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "updated",
+   "published": "2026-11-05T12:25:00+00:00",
+   "first_seen": "2026-11-09T16:13:37+00:00",
+   "type": "research",
+   "stage": "learning",
+   "topic": "Agentic AI observability governance",
+   "search": "agentic AI observability governance control",
+   "why": "Educates enterprises on managing AI agents at scale through observability and governance frameworks."
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/knowledge-center/snowflake-row-count/",
+   "title": "Snowflake row count: how to count rows in tables and views | Datadog",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-12T00:00:00+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Snowflake row count methods",
+   "search": "how to count rows in Snowflake",
+   "why": "Establishes Datadog expertise in data engineering and Snowflake optimization practices."
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/knowledge-center/data-anomalies/",
+   "title": "What are data anomalies? Definitions, types, and examples | Datadog",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-12T00:00:00+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Data anomalies definitions types",
+   "search": "what are data anomalies",
+   "why": "Establishes Datadog authority on data observability fundamentals for early-stage researchers."
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/knowledge-center/data-freshness/",
+   "title": "What is data freshness? Definitions, types, and examples | Datadog",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-12T00:00:00+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "data freshness quality monitoring",
+   "search": "what is data freshness",
+   "why": "Establishes Datadog expertise in data quality and observability foundations."
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/knowledge-center/data-usability/",
+   "title": "What is data usability? Definition, examples, and how to measure it | Datadog",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-10T00:00:00+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Data usability definition and measurement",
+   "search": "what is data usability definition",
+   "why": "Establishes Datadog as authority on data quality concepts early in buyer journey."
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/state-of-cloud-security-2025/",
+   "title": "State of Cloud Security | Datadog",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "research",
+   "stage": "learning",
+   "topic": "Cloud security posture trends 2025",
+   "search": "cloud security trends 2025 AWS Azure GCP",
+   "why": "Establishes thought leadership by publishing original research on cloud security trends across major platforms."
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/blog/deployment-gates/",
+   "title": "Catch incidents and pause faulty deployments automatically with Datadog Deployment Gates | Datadog",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-09T00:00:00+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Automated deployment health checks",
+   "search": "deployment gates monitoring automated checks",
+   "why": "Showcases new Deployment Gates feature to drive product adoption among engineering teams."
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/blog/datadog-cyber-essentials-plus-certification/",
+   "title": "Datadog achieves Cyber Essentials Plus certification for its UK operations and UK1 production environment | Datadog",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-09T00:00:00+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Cyber Essentials Plus certification UK",
+   "search": "Datadog Cyber Essentials Plus certification",
+   "why": "Builds trust with UK customers by demonstrating security compliance and governance credentials."
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/blog/detect-respond-php2shell-datadog/",
+   "title": "Detect and respond to PHP2Shell with Datadog | Datadog",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-10T00:00:00+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "howto",
+   "stage": "buying",
+   "topic": "Detect PHP2Shell vulnerability with Datadog",
+   "search": "how to detect PHP2Shell vulnerability",
+   "why": "Shows buyers how Datadog's security platform handles critical PHP vulnerabilities."
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/blog/kubernetes-processes-datadog-mcp-server/",
+   "title": "Investigate Kubernetes health and processes with the Datadog MCP Server | Datadog",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-09T00:00:00+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "news",
+   "stage": "learning",
+   "topic": "Kubernetes health with MCP Server",
+   "search": "Datadog MCP Server Kubernetes monitoring",
+   "why": "Announces new Datadog MCP Server features for Kubernetes and AI-driven investigations."
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/blog/cloud-siem-investigate-user-entity-risks/",
+   "title": "Investigate the person behind the risk with Cloud SIEM  | Datadog",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-13T00:00:00+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "howto",
+   "stage": "comparing",
+   "topic": "Cloud SIEM user investigation and risk",
+   "search": "Cloud SIEM investigate user risks Entity Packs",
+   "why": "Demonstrates advanced security features that differentiate Datadog's Cloud SIEM from competitors' offerings."
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/blog/end-user-device-monitoring/",
+   "title": "Monitor and troubleshoot employee devices with Datadog End User Device Monitoring | Datadog",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-10T00:00:00+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "End User Device Monitoring",
+   "search": "employee device monitoring troubleshooting",
+   "why": "Showcases EUDM feature benefits to convert IT teams evaluating device monitoring solutions."
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/blog/monitor-oci-government-cloud-datadog/",
+   "title": "Monitor OCI workloads in US government clouds with Datadog | Datadog",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-10T00:00:00+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Monitor OCI government cloud workloads",
+   "search": "monitor OCI government cloud Datadog",
+   "why": "Announces Datadog for Government support for Oracle Cloud Infrastructure workloads in US government regions."
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/blog/monitor-openai-codex-with-datadog/",
+   "title": "Monitor OpenAI Codex usage and impact with Datadog | Datadog",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-10T00:00:00+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "howto",
+   "stage": "buying",
+   "topic": "Monitor OpenAI Codex usage impact",
+   "search": "monitor openai codex usage datadog",
+   "why": "Shows how their integration solves AI adoption visibility for engineering leaders evaluating tools."
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/blog/kubernetes-inference-workload-monitoring/",
+   "title": "Troubleshoot Kubernetes inference workloads with Datadog | Datadog",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-10T00:00:00+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "howto",
+   "stage": "comparing",
+   "topic": "Kubernetes inference workload monitoring",
+   "search": "troubleshoot Kubernetes inference workloads",
+   "why": "Demonstrates Datadog's inference monitoring capability to buyers evaluating MLOps observability solutions."
+  },
+  {
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/blog/aws-account-management/",
+   "title": "Where to run AWS workloads and how to limit their access | Datadog",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-11T00:00:00+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "AWS account management security best practices",
+   "search": "AWS account management organization security",
+   "why": "Builds authority in cloud infrastructure security to attract early-stage AWS learners."
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/blog/observability/kubecon-na-2026-opentelemetry-autonomous-operations",
+   "title": "Scaling OpenTelemetry & Autonomous Kubernetes Ops at KubeCon NA 2026",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-09T00:00:00+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "KubeCon OpenTelemetry autonomous operations",
+   "search": "KubeCon NA 2026 OpenTelemetry Kubernetes",
+   "why": "Builds thought leadership at industry event; engages existing users with new feature announcements."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/news/blog/oneagent-release-notes-version-1-349/",
+   "title": "What's new in Dynatrace OneAgent 1.349",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-05T00:00:00+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "OneAgent 1.349 release notes",
+   "search": "Dynatrace OneAgent 1.349 release notes",
+   "why": "Keeps existing customers informed of agent updates, features, and fixes."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/news/blog/raising-the-bar-for-enterprise-resilience-in-the-age-of-ai/",
+   "title": "Raising the bar for enterprise resilience in the age of AI",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-11T15:29:37+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "Enterprise resilience AI software development",
+   "search": "enterprise resilience AI software development",
+   "why": "Establishes thought leadership on resilience practices for AI-driven enterprises."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/news/blog/when-the-algorithm-hallucinates-in-the-icu-whos-watching/",
+   "title": "When the algorithm hallucinates in the ICU, who’s watching?",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-09T20:23:16+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "AI observability in healthcare",
+   "search": "AI observability healthcare governance",
+   "why": "Establishes Dynatrace as thought leader on AI governance and observability risks in healthcare."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/news/blog/state-of-observability-report-2026-key-insights/",
+   "title": "AI ambition is outpacing operational proof, Dynatrace research finds",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-10T13:56:04+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "research",
+   "stage": "learning",
+   "topic": "AI observability execution gaps",
+   "search": "state of observability 2026 AI agents",
+   "why": "Establishes thought leadership on AI observability trends and positions Dynatrace as research authority."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/news/blog/get-more-from-opentelemetry-from-connected-data-to-faster-root-cause-analysis/",
+   "title": "Get more from OpenTelemetry: From connected data to faster root cause analysis",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-12T17:31:07+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "OpenTelemetry root cause analysis",
+   "search": "OpenTelemetry root cause analysis observability",
+   "why": "Educates prospects on OpenTelemetry benefits and positions Dynatrace as the solution."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/news/blog/the-sre-agent-is-generally-available-investigation-and-triage-start-the-moment-a-problem-is-detected/",
+   "title": "The SRE Agent is generally available: investigation and triage start the moment a problem is detected",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-11T18:22:08+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "SRE Agent for incident investigation",
+   "search": "SRE Agent incident investigation Dynatrace",
+   "why": "Announces new SRE Agent feature to help existing customers reduce incident response time."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/news/blog/from-alerts-to-answers-the-new-dynatrace-event-connector-for-servicenow-itom/",
+   "title": "From alerts to answers: The new Dynatrace Event Connector for ServiceNow ITOM",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-12T18:29:45+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Dynatrace ServiceNow Event Connector",
+   "search": "Dynatrace ServiceNow ITOM Event Connector integration",
+   "why": "Showcases new product feature for existing customers to reduce alert noise."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/news/blog/what-dynatrace-and-microsoft-are-bringing-to-the-ai-era-at-microsoft-ignite-2026/",
+   "title": "What Dynatrace and Microsoft are bringing to the AI era at Microsoft Ignite 2026",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-13T17:36:17+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "news",
+   "stage": "learning",
+   "topic": "Dynatrace Microsoft AI observability",
+   "search": "Dynatrace Microsoft Ignite 2026 AI",
+   "why": "Announces partnership innovations at major tech event to establish thought leadership."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/news/security-alert/apache-http-2-rce-vulnerability-cve-2026-119618/",
+   "title": "Apache HTTP/2 RCE Vulnerability (CVE-2026-119618)",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-12T10:40:59+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Apache HTTP/2 RCE vulnerability impact",
+   "search": "Apache HTTP/2 RCE vulnerability CVE-2026-119618",
+   "why": "Reassures existing customers that Dynatrace is unaffected by the Apache vulnerability."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/services-support/professional-services/",
+   "title": "Dynatrace Professional ServicesÂ",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-16T14:07:52+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Professional services and consulting",
+   "search": "professional services dynatrace implementation",
+   "why": "Showcases premium services to help buyers commit to and succeed with Dynatrace adoption."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/research/publications/mcp-tool-poisoning-in-agentic-ai-frameworks-a-cross-framework-measurement-study/",
+   "title": "MCP Tool Poisoning in Agentic AI Frameworks: A Cross-Framework Measurement Study | Dynatrace Research",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-13T12:36:00+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "research",
+   "stage": "learning",
+   "topic": "MCP tool poisoning agentic AI frameworks",
+   "search": "MCP tool poisoning agentic AI security",
+   "why": "Establishes thought leadership on emerging AI security vulnerabilities and framework risks."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/resources/explore-the-exclusive-ebook-for-shell-20218570/",
+   "title": "Explore the exclusive ebook for Shell.",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-11T17:59:00+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "case",
+   "stage": "comparing",
+   "topic": "Dynatrace ServiceNow observability automation",
+   "search": "Dynatrace ServiceNow integration observability",
+   "why": "Shows enterprise outcome to differentiate Dynatrace against competitors lacking ServiceNow integration."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/resources/healthcare-observability-blueprint-20218696/",
+   "title": "Healthcare Observability Blueprint",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-11T16:39:00+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "research",
+   "stage": "learning",
+   "topic": "Healthcare observability monitoring blueprint",
+   "search": "healthcare system monitoring observability",
+   "why": "Establishes thought leadership in healthcare observability to attract early-stage research prospects."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/resources/practitioners-guide-for-platform-engineering-sre-teams-20214153/",
+   "title": "Practitioner's Guide for Platform Engineering & SRE Teams",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-10T17:59:00+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "From reactive monitoring to autonomous operations",
+   "search": "platform engineering SRE AI monitoring",
+   "why": "Establishes thought leadership on cloud operations maturity and positions AI-driven solutions."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/resources/retail-in-real-time-observability-for-the-store-floor-20199189/",
+   "title": "Retail in Real Time - Observability for the Store Floor",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-09T20:27:36+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "Observability for distributed retail infrastructure",
+   "search": "monitoring point of sale systems across stores",
+   "why": "Educates retail IT leaders on monitoring challenges in distributed store environments."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/resources/retail-in-real-time-every-transaction-20138922/",
+   "title": "Retail in Real Time - Every Transaction Tells a Story",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-09T19:21:32+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "Business observability for retail",
+   "search": "connect IT performance to business outcomes",
+   "why": "Educates retail leaders on linking tech metrics to revenue and conversions."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/resources/retail-in-real-time-from-click-to-delivered-20177707/",
+   "title": "Retail in Real Time - From Click to Delivered",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-12T15:40:30+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "case",
+   "stage": "comparing",
+   "topic": "Retail fulfilment visibility omnichannel",
+   "search": "retail order tracking end-to-end visibility",
+   "why": "Demonstrates APM value for retail supply chain optimization and customer experience improvement."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/resources/modern-log-management-foundation-for-ai-zero-touch-operations-20089524/",
+   "title": "Modern log management as the foundation for AI zero-touch operations",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-10T13:50:24+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "case",
+   "stage": "comparing",
+   "topic": "Log management for AI operations",
+   "search": "modern log management unified observability",
+   "why": "Demonstrates advanced observability capabilities through Vodafone's real-world implementation story."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/resources/466-roi-build-the-business-case-for-ai-powered-observability-20218403/",
+   "title": "466% ROI: Build the Business Case for AI-Powered Observability",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-13T15:59:31+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "research",
+   "stage": "buying",
+   "topic": "AI-powered observability ROI business case",
+   "search": "observability business value ROI case study",
+   "why": "Provides third-party ROI validation to convince budget holders to invest in Dynatrace observability."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/resources/stop-firefighting-start-building-developer-first-observability-in-action-20207023/",
+   "title": "Stop Firefighting, Start Building | Dynatrace Webinar",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-10T12:57:29+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "Developer-first observability practices",
+   "search": "developer observability tools webinar",
+   "why": "Attracts developers learning how to reduce firefighting and ship faster with observability."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/es-la/customers/vodafone/",
+   "title": "Vodafone caso de cliente",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-13T15:02:21+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "case",
+   "stage": "buying",
+   "topic": "Log management and AI operations at scale",
+   "search": "log management cost reduction telecommunications",
+   "why": "Demonstrates cost savings and scalability to convince enterprise buyers of Dynatrace value."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/tw/customers/vodafone/",
+   "title": "Vodafone å®¢æ¶æ¡ä¾",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-13T15:02:21+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "case",
+   "stage": "buying",
+   "topic": "Vodafone Dynatrace observability implementation",
+   "search": "Vodafone cloud monitoring observability platform",
+   "why": "Demonstrates real-world success with major telecom customer to convince evaluators."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/cn/customers/vodafone/",
+   "title": "æ²è¾¾ä¸°",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-13T15:02:21+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "case",
+   "stage": "buying",
+   "topic": "Vodafone log management AI",
+   "search": "Dynatrace Vodafone case study",
+   "why": "Demonstrates APM success with major telecom customer to build buyer confidence."
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/whats-next/2026-10-29-deprecation-notice-for-the-legacy-annotations-api/",
+   "title": "Deprecation notice for the legacy Annotations API | Grafana Labs",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Legacy Annotations API deprecation",
+   "search": "Grafana Annotations API deprecation",
+   "why": "Informs existing customers about legacy API sunset timeline and migration requirements."
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/whats-next/2026-11-02-annotations-in-grafana-cloud-retained-for-13-months/",
+   "title": "Annotations in Grafana Cloud retained for 13 months starting January 4, 2027 | Grafana Labs",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Grafana Cloud annotations retention policy change",
+   "search": "Grafana Cloud annotations retention 13 months",
+   "why": "Informs existing customers of important platform policy change affecting their dashboards."
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/success/eurostar/",
+   "title": "How Eurostar unifies observability and simplifies troubleshooting with Grafana Cloud | Grafana Labs",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "case",
+   "stage": "buying",
+   "topic": "Eurostar Grafana Cloud observability",
+   "search": "how Eurostar uses Grafana Cloud",
+   "why": "Shows how enterprise client solved Kubernetes monitoring and cost challenges with their platform."
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/blog/run-cost-effective-always-on-agents-to-monitor-your-environment-the-engineering-behind-watchers/",
+   "title": "Run cost-effective, always-on agents to monitor your environment: the engineering behind Grafana Assistant Watchers | Grafana Labs",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": "2026-11-09T00:00:00+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "Cost-effective AI monitoring agents",
+   "search": "how to build cost-effective monitoring agents",
+   "why": "Establishes thought leadership on efficient AI-driven observability architecture."
+  },
+  {
+   "site": "Elastic Observability",
+   "url": "https://www.elastic.co/observability/blog/elastic-stack-8-19-25-released",
+   "title": "Elastic Stack 8.19.25 released",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Elastic Stack 8.19.25 release",
+   "search": "Elastic Stack 8.19.25 released",
+   "why": "Keeps existing users informed about product updates and new features."
+  },
+  {
+   "site": "Sumo Logic",
+   "url": "https://www.sumologic.com/videos/ask-mobot",
+   "title": "Ask Mobot",
+   "date": "2026-11-16T15:42:03+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Natural language AI query tool",
+   "search": "natural language queries cloud monitoring",
+   "why": "Demonstrates AI feature capability to prospects researching investigation efficiency."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/perform/training/",
+   "title": "Training | Dynatrace Perform",
+   "date": "2026-11-11T20:15:39+00:00",
+   "kind": "new",
+   "published": "2026-11-11T20:15:39+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "landing",
+   "stage": "customers",
+   "topic": "Perform 2027 conference training sessions",
+   "search": "Dynatrace Perform training certification 2027",
+   "why": "Promotes expert-led training and certification opportunities at their annual conference for existing users."
   },
   {
    "site": "New Relic",
@@ -759,76 +1807,6 @@
    "topic": "AI competitive advantage observability context",
    "search": "how AI models commoditize competitive advantage",
    "why": "Establishes New Relic's thought leadership on enterprise AI and operational context as future differentiator."
-  },
-  {
-   "site": "New Relic",
-   "url": "https://newrelic.com/blog/observability/general-availability-new-relic-lens",
-   "title": "General Availability of New Relic Lens | New Relic",
-   "date": "2026-11-09T16:13:37+00:00",
-   "kind": "updated",
-   "published": "2026-09-15T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "news",
-   "stage": "buying",
-   "topic": "New Relic Lens general availability",
-   "search": "New Relic Lens data federation feature",
-   "why": "Announces major feature release to highlight product capabilities and attract buyers seeking data federation solutions."
-  },
-  {
-   "site": "New Relic",
-   "url": "https://newrelic.com/blog/ai/bridging-the-ai-visibility-gap",
-   "title": "Bridging the AI Visibility Gap",
-   "date": "2026-11-09T16:13:37+00:00",
-   "kind": "updated",
-   "published": "2026-09-16T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "howto",
-   "stage": "learning",
-   "topic": "Monitoring GenAI applications safely",
-   "search": "how to monitor AI applications production",
-   "why": "Educates early-stage buyers about hidden AI monitoring risks and observability solutions."
-  },
-  {
-   "site": "New Relic",
-   "url": "https://newrelic.com/blog/infrastructure-monitoring/kubernetes-monitoring-metrics",
-   "title": "Kubernetes Monitoring Metrics: What to Track, How to Collect, & Best Practices",
-   "date": "2026-11-09T16:13:37+00:00",
-   "kind": "updated",
-   "published": "2026-09-16T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "howto",
-   "stage": "learning",
-   "topic": "Kubernetes monitoring metrics best practices",
-   "search": "kubernetes monitoring metrics what to track",
-   "why": "Attracts engineers researching Kubernetes observability before evaluating solutions."
-  },
-  {
-   "site": "New Relic",
-   "url": "https://newrelic.com/blog/dem/synthetic-monitoring-tools",
-   "title": "7 Best Synthetic Monitoring Tools for Engineering Teams",
-   "date": "2026-11-09T16:13:37+00:00",
-   "kind": "updated",
-   "published": "2026-09-17T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "compare",
-   "stage": "comparing",
-   "topic": "Synthetic monitoring tools comparison",
-   "search": "best synthetic monitoring tools",
-   "why": "Captures engineers researching synthetic monitoring solutions before purchase decisions."
-  },
-  {
-   "site": "New Relic",
-   "url": "https://newrelic.com/blog/ai/llm-observability",
-   "title": "LLM Observability: The 8 Best Tools for Production AI Systems",
-   "date": "2026-11-09T16:13:37+00:00",
-   "kind": "updated",
-   "published": "2026-09-17T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "compare",
-   "stage": "comparing",
-   "topic": "LLM observability tools comparison",
-   "search": "best LLM observability tools",
-   "why": "Positions New Relic as an option within the LLM observability category for buyers evaluating solutions."
   },
   {
    "site": "New Relic",
@@ -899,20 +1877,6 @@
    "topic": "Apache web server performance tuning",
    "search": "how to tune Apache web server performance",
    "why": "Attracts teams managing Apache servers seeking optimization guidance and performance monitoring solutions."
-  },
-  {
-   "site": "Dynatrace",
-   "url": "https://www.dynatrace.com/resources/retail-in-real-time-webinar-series-20033620/",
-   "title": "Retail in Real Time Webinar Series",
-   "date": "2026-11-09T16:13:37+00:00",
-   "kind": "updated",
-   "published": "2026-10-16T21:36:53+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "landing",
-   "stage": "learning",
-   "topic": "Retail observability webinar series",
-   "search": "retail observability webinar series",
-   "why": "Educates retailers on using observability to improve customer experience and protect revenue."
   },
   {
    "site": "Dynatrace",
@@ -1095,20 +2059,6 @@
    "topic": "AI-powered community platform launch",
    "search": "Dynatrace Community platform AI",
    "why": "Announces new community platform features to engage existing users and highlight AI capabilities."
-  },
-  {
-   "site": "Dynatrace",
-   "url": "https://www.dynatrace.com/technologies/crowdstrike-monitoring/",
-   "title": "CrowdStrike + Dynatrace",
-   "date": "2026-11-09T16:13:37+00:00",
-   "kind": "updated",
-   "published": "2026-10-30T12:00:27+00:00",
-   "first_seen": "2026-11-02T15:46:15+00:00",
-   "type": "landing",
-   "stage": "buying",
-   "topic": "CrowdStrike Dynatrace integration",
-   "search": "CrowdStrike Dynatrace integration",
-   "why": "Showcases partnership integration to buyers evaluating security-observability stacks together."
   },
   {
    "site": "Grafana Labs",
@@ -1490,20 +2440,6 @@
   },
   {
    "site": "Dynatrace",
-   "url": "https://www.dynatrace.com/news/blog/kubernetes-security-essentials-network-misconfigurations-the-invisible-attack-surface/",
-   "title": "Kubernetes security essentials: Network misconfigurations – The invisible attack surface",
-   "date": "2026-11-09T16:13:37+00:00",
-   "kind": "new",
-   "published": "2026-11-05T16:30:20+00:00",
-   "first_seen": "2026-11-09T16:13:37+00:00",
-   "type": "howto",
-   "stage": "learning",
-   "topic": "Kubernetes network security misconfigurations",
-   "search": "Kubernetes network security misconfigurations",
-   "why": "Educates readers on Kubernetes security risks and Dynatrace's detection capabilities."
-  },
-  {
-   "site": "Dynatrace",
    "url": "https://www.dynatrace.com/news/blog/kubernetes-security-essentials-consistent-security-posture-management-across-your-kubernetes-environments/",
    "title": "Kubernetes Security Essentials: Consistent security posture management across your Kubernetes environments",
    "date": "2026-11-09T16:13:37+00:00",
@@ -1543,20 +2479,6 @@
    "topic": "Dynatrace Managed 1.350 release notes",
    "search": "Dynatrace Managed 1.350 new features",
    "why": "Informs existing customers about platform updates and new capabilities."
-  },
-  {
-   "site": "Dynatrace",
-   "url": "https://www.dynatrace.com/resources/dynatrace-deloitte-scale-agentic-ai-with-confidence-20193588/",
-   "title": "Dynatrace + Deloitte:  Scale agentic AI with confidence",
-   "date": "2026-11-09T16:13:37+00:00",
-   "kind": "new",
-   "published": "2026-11-05T12:25:00+00:00",
-   "first_seen": "2026-11-09T16:13:37+00:00",
-   "type": "research",
-   "stage": "learning",
-   "topic": "Agentic AI observability governance",
-   "search": "agentic AI observability governance control",
-   "why": "Educates enterprises on managing AI agents at scale through observability and governance frameworks."
   },
   {
    "site": "Dynatrace",
@@ -1823,6 +2745,104 @@
    "topic": "AWS data sovereignty observability",
    "search": "AWS European Sovereign Cloud Sumo Logic",
    "why": "Positions their platform as solving EU data sovereignty concerns for enterprise buyers."
+  },
+  {
+   "site": "New Relic",
+   "url": "https://newrelic.com/solutions/enterprise-monitoring",
+   "title": "Enterprise Observability",
+   "date": "2026-11-09T05:19:00+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Enterprise observability platform",
+   "search": "enterprise monitoring observability solution",
+   "why": "Shows how New Relic's platform solves enterprise-scale problems with case studies and pricing."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/technologies/azure-monitoring/",
+   "title": "Azure monitoring | Azure observability",
+   "date": "2026-11-06T11:38:15+00:00",
+   "kind": "new",
+   "published": "2026-11-06T11:38:15+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Azure monitoring observability platform",
+   "search": "Azure monitoring observability Dynatrace",
+   "why": "Promotes Azure Native service to buyers ready to monitor cloud environments."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/es-la/technologies/azure-monitoring/",
+   "title": "Monitoreo de Azure",
+   "date": "2026-11-06T11:38:15+00:00",
+   "kind": "new",
+   "published": "2026-11-06T11:38:15+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Azure monitoring with Dynatrace",
+   "search": "Azure monitoring observability APM",
+   "why": "Showcases native Azure integration to convert cloud-ready buyers."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/tw/technologies/azure-monitoring/",
+   "title": "Azure monitoring",
+   "date": "2026-11-06T11:38:15+00:00",
+   "kind": "new",
+   "published": "2026-11-06T11:38:15+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "Azure monitoring with Dynatrace",
+   "search": "Azure monitoring Dynatrace",
+   "why": "Showcases Dynatrace capabilities for Azure environments to prospects evaluating solutions."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/cn/technologies/azure-monitoring/",
+   "title": "Azure çæ§",
+   "date": "2026-11-06T11:38:15+00:00",
+   "kind": "new",
+   "published": "2026-11-06T11:38:15+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Azure monitoring with Dynatrace",
+   "search": "Azure cloud monitoring observability",
+   "why": "Promotes Azure Native integration to buyers evaluating cloud monitoring solutions."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/solutions/application-monitoring/",
+   "title": "Application monitoring",
+   "date": "2026-11-06T09:22:35+00:00",
+   "kind": "new",
+   "published": "2026-11-06T09:22:35+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "Application monitoring",
+   "search": "application monitoring",
+   "why": "Educates prospects on application monitoring benefits and Dynatrace's full-stack capabilities."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/resources/vitalitys-journey-to-unified-privacy-first-observability-20087393/",
+   "title": "Vitalityâs Journey to Unified, Privacy-first Observability",
+   "date": "2026-11-05T11:54:06+00:00",
+   "kind": "new",
+   "published": "2026-11-05T11:54:06+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "case",
+   "stage": "comparing",
+   "topic": "observability platform modernization case study",
+   "search": "privacy-first observability log management unified",
+   "why": "Demonstrates how enterprise customer transformed observability with their platform, targeting evaluation buyers."
   },
   {
    "site": "Dynatrace",
@@ -2595,6 +3615,118 @@
    "why": "Showcases core product feature to help buyers choose Grafana for faster incident resolution."
   },
   {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/products/cloud/adaptive-telemetry/",
+   "title": "Adaptive Telemetry | Grafana Cloud | Grafana Labs",
+   "date": "2026-11-02T15:46:15+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:46:15+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Cost optimization observability data",
+   "search": "reduce observability costs keep insights",
+   "why": "Addresses buyer concern about rising observability costs while maintaining visibility."
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/products/cloud/database-observability/",
+   "title": "Database Observability | Grafana Cloud | Grafana Labs",
+   "date": "2026-11-02T15:46:15+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:46:15+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Database observability monitoring tools",
+   "search": "database observability monitoring MySQL PostgreSQL",
+   "why": "Showcases database observability capabilities to convert prospects evaluating monitoring solutions."
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/observability-survey/2026/",
+   "title": "Observability Survey 2026 | Grafana Labs",
+   "date": "2026-11-02T15:46:15+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:46:15+00:00",
+   "type": "research",
+   "stage": "learning",
+   "topic": "Observability survey AI open source",
+   "search": "observability trends AI adoption 2026",
+   "why": "Establishes thought leadership through original research on industry observability practices and trends."
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/compare/",
+   "title": "Compare Grafana Cloud vs. Datadog, Splunk & More | Grafana Labs",
+   "date": "2026-11-02T15:46:15+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:46:15+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "Grafana Cloud vs competitors",
+   "search": "Grafana vs Datadog Splunk New Relic",
+   "why": "Captures buyers comparing Grafana with established rivals like Datadog and Splunk."
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/products/cloud/performance-load-testing-k6/",
+   "title": "Performance and Load Testing | Grafana Cloud k6 | Grafana Labs",
+   "date": "2026-11-02T15:46:15+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:46:15+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Performance and load testing platform",
+   "search": "performance load testing cloud k6",
+   "why": "Demonstrates k6 capabilities to buyers evaluating performance testing solutions."
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/products/cloud/cost-management-optimization/",
+   "title": "Cost Management and Optimization | Grafana Cloud | Grafana Labs",
+   "date": "2026-11-02T15:46:15+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:46:15+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Cost management and optimization",
+   "search": "observability cost management tools",
+   "why": "Showcases cost control features to convert buyers evaluating observability platforms."
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/products/cloud/grafana/",
+   "title": "Grafana Dashboards & Visualization | Grafana Cloud | Grafana Labs",
+   "date": "2026-11-02T15:46:15+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:46:15+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "Grafana Cloud dashboard visualization platform",
+   "search": "grafana cloud dashboards visualization monitoring",
+   "why": "Showcases Grafana's core value propositions and capabilities to buyers evaluating observability platforms."
+  },
+  {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/products/cloud/kubernetes/",
+   "title": "Kubernetes Monitoring | Grafana Cloud | Grafana Labs",
+   "date": "2026-11-02T15:46:15+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:46:15+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Kubernetes monitoring with Grafana Cloud",
+   "search": "Kubernetes monitoring platform",
+   "why": "Showcases Kubernetes monitoring capabilities to convert evaluators into paying customers."
+  },
+  {
    "site": "Elastic Observability",
    "url": "https://www.elastic.co/observability/blog/elastic-stack-9-5-6-released",
    "title": "Elastic Stack 9.5.6 released",
@@ -2735,32 +3867,18 @@
    "why": "Positions Dynatrace as the monitoring solution for Red Hat OpenShift users evaluating vendors."
   },
   {
-   "site": "Sumo Logic",
-   "url": "https://www.sumologic.com/solutions/data-pipelines",
-   "title": "Data pipelines | AI-powered data pipeline management",
-   "date": "2026-10-29T04:20:44+00:00",
-   "kind": "updated",
-   "published": "2026-09-21T12:33:32+00:00",
-   "first_seen": "2026-11-02T15:46:15+00:00",
-   "type": "landing",
-   "stage": "comparing",
-   "topic": "AI-powered data pipeline management",
-   "search": "data pipeline management tools",
-   "why": "Showcases Sumo Logic's data pipelines feature to buyers evaluating solutions for cost control."
-  },
-  {
-   "site": "New Relic",
-   "url": "https://newrelic.com/events/2026-08-27/product-pulse-on-demand",
-   "title": "Product Pulse On Demand",
+   "site": "Datadog",
+   "url": "https://www.datadoghq.com/architecture/network-path/",
+   "title": "Datadog Network Path | Datadog",
    "date": "2026-10-28T00:00:00+00:00",
-   "kind": "new",
+   "kind": "unknown",
    "published": "2026-10-28T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "news",
-   "stage": "customers",
-   "topic": "Product Pulse On Demand webinar series",
-   "search": "New Relic Product Pulse webinar on demand",
-   "why": "Keeps existing users engaged with monthly platform tips, Q&A, and feature updates."
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Network Path architecture monitoring",
+   "search": "network path monitoring hybrid cloud",
+   "why": "Educates teams on measuring network performance across hybrid cloud architectures using their platform."
   },
   {
    "site": "Grafana Labs",
@@ -2789,34 +3907,6 @@
    "topic": "Dynatrace SaaS 1.349 release notes",
    "search": "Dynatrace SaaS 1.349 new features",
    "why": "Keeps existing users informed of platform updates and new capabilities."
-  },
-  {
-   "site": "Grafana Labs",
-   "url": "https://grafana.com/blog/get-observability-in-your-pocket-with-the-grafana-mobile-app/",
-   "title": "Get observability in your pocket with the Grafana mobile app | Grafana Labs",
-   "date": "2026-10-26T12:58:25+00:00",
-   "kind": "updated",
-   "published": "2026-10-15T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "news",
-   "stage": "customers",
-   "topic": "Grafana mobile app observability",
-   "search": "Grafana mobile app observability incident response",
-   "why": "Demonstrates new mobile features to existing Grafana users and on-call teams."
-  },
-  {
-   "site": "Grafana Labs",
-   "url": "https://grafana.com/blog/go-from-alert-to-post-incident-review-with-grafana-cloud-irm-and-ai/",
-   "title": "Go from alert to post-incident review with Grafana Cloud IRM and AI | Grafana Labs",
-   "date": "2026-10-26T12:58:25+00:00",
-   "kind": "updated",
-   "published": "2026-10-14T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "case",
-   "stage": "learning",
-   "topic": "Incident response workflow with Grafana IRM",
-   "search": "incident management workflow best practices",
-   "why": "Shows workflow value of IRM and AI for incident handling, educates about modern incident response practices."
   },
   {
    "site": "Grafana Labs",
@@ -2974,20 +4064,6 @@
   },
   {
    "site": "New Relic",
-   "url": "https://newrelic.com/blog/observability/datadog-vs-splunk",
-   "title": "Datadog vs. Splunk: Which Fits Your Observability Stack in 2026?",
-   "date": "2026-10-26T12:58:25+00:00",
-   "kind": "new",
-   "published": "2026-10-23T00:00:00+00:00",
-   "first_seen": "2026-10-26T12:58:25+00:00",
-   "type": "compare",
-   "stage": "buying",
-   "topic": "Datadog vs Splunk observability",
-   "search": "Datadog vs Splunk comparison",
-   "why": "Catches buyers comparing Datadog and Splunk, showing New Relic as unified alternative."
-  },
-  {
-   "site": "New Relic",
    "url": "https://newrelic.com/blog/observability/datadog-vs-grafana",
    "title": "Datadog vs. Grafana: Comparing Two Paths to Observability (2026)",
    "date": "2026-10-26T12:58:25+00:00",
@@ -2999,34 +4075,6 @@
    "topic": "Datadog vs Grafana observability",
    "search": "Datadog vs Grafana comparison",
    "why": "Positions New Relic against direct competitors by highlighting trade-offs between them."
-  },
-  {
-   "site": "New Relic",
-   "url": "https://newrelic.com/blog/observability/datadog-vs-dynatrace",
-   "title": "Datadog vs. Dynatrace: An Honest Comparison for Cloud-Native Teams (2026)",
-   "date": "2026-10-26T12:58:25+00:00",
-   "kind": "new",
-   "published": "2026-10-22T00:00:00+00:00",
-   "first_seen": "2026-10-26T12:58:25+00:00",
-   "type": "compare",
-   "stage": "buying",
-   "topic": "Datadog vs Dynatrace monitoring",
-   "search": "Datadog vs Dynatrace comparison",
-   "why": "Catches buyers comparing two rivals and positions New Relic as superior alternative."
-  },
-  {
-   "site": "New Relic",
-   "url": "https://newrelic.com/blog/observability/platform-engineering-tools",
-   "title": "Platform Engineering Tools: A Buyer's Guide to the Internal Developer Platform Stack",
-   "date": "2026-10-26T12:58:25+00:00",
-   "kind": "new",
-   "published": "2026-10-22T00:00:00+00:00",
-   "first_seen": "2026-10-26T12:58:25+00:00",
-   "type": "compare",
-   "stage": "comparing",
-   "topic": "Platform engineering tools buyer's guide",
-   "search": "platform engineering tools internal developer platform",
-   "why": "Positions New Relic's observability as essential to platform engineering stacks."
   },
   {
    "site": "Dynatrace",
@@ -3156,20 +4204,6 @@
   },
   {
    "site": "Grafana Labs",
-   "url": "https://grafana.com/blog/six-improvements-that-make-grafana-assistant-better-at-helping-your-workflows/",
-   "title": "Six improvements that make Grafana Assistant better at helping your workflows | Grafana Labs",
-   "date": "2026-10-26T12:58:25+00:00",
-   "kind": "new",
-   "published": "2026-10-19T00:00:00+00:00",
-   "first_seen": "2026-10-26T12:58:25+00:00",
-   "type": "news",
-   "stage": "customers",
-   "topic": "Grafana Assistant AI improvements",
-   "search": "Grafana Assistant AI improvements features",
-   "why": "Showcases product improvements to existing cloud customers and demonstrates AI/agent advancement."
-  },
-  {
-   "site": "Grafana Labs",
    "url": "https://grafana.com/blog/observabilitycon-2026-announcements/",
    "title": "ObservabilityCON 2026: A guide to all the announcements from Grafana Labs | Grafana Labs",
    "date": "2026-10-26T12:58:25+00:00",
@@ -3195,20 +4229,6 @@
    "topic": "Autonomous operations with Grafana AI",
    "search": "autonomous operations incident resolution AI",
    "why": "Shows how Grafana's AI features resolve incidents faster than competitors' workflows."
-  },
-  {
-   "site": "Grafana Labs",
-   "url": "https://grafana.com/blog/grafana-marketplace/",
-   "title": "Expand what’s possible with Grafana: The Grafana Marketplace is now generally available | Grafana Labs",
-   "date": "2026-10-26T12:58:25+00:00",
-   "kind": "new",
-   "published": "2026-10-20T00:00:00+00:00",
-   "first_seen": "2026-10-26T12:58:25+00:00",
-   "type": "news",
-   "stage": "customers",
-   "topic": "Grafana Marketplace general availability announcement",
-   "search": "Grafana Marketplace plugins now available",
-   "why": "Announces new marketplace feature to existing Grafana users and partners."
   },
   {
    "site": "Grafana Labs",
@@ -3841,20 +4861,6 @@
    "why": "Establishes thought leadership by sharing original research on security industry trends."
   },
   {
-   "site": "Sumo Logic",
-   "url": "https://www.sumologic.com/blog/10-best-practices-cloud-siem",
-   "title": "Top 10 SIEM best practices",
-   "date": "2026-10-19T17:18:59+00:00",
-   "kind": "bulk",
-   "published": "2026-01-13T23:07:28+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "list",
-   "stage": "learning",
-   "topic": "SIEM best practices cloud security",
-   "search": "SIEM best practices cloud security",
-   "why": "Establishes authority in cloud SIEM while subtly positioning Sumo Logic's unified approach."
-  },
-  {
    "site": "Dynatrace",
    "url": "https://www.dynatrace.com/resources/intelligent-agents-intelligent-observability-a-developers-guide-to-ai-workflows-20121505/",
    "title": "Dynatrace",
@@ -4093,6 +5099,20 @@
    "why": "Educates prospects on network monitoring fundamentals to build Dynatrace authority."
   },
   {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/blog/from-failed-check-to-real-user-impact-pairing-synthetic-monitoring-and-frontend-observability-in-grafana-cloud/",
+   "title": "From failed check to real user impact: Pairing Synthetic Monitoring and Frontend Observability in Grafana Cloud | Grafana Labs",
+   "date": "2026-10-19T00:00:00+00:00",
+   "kind": "new",
+   "published": "2026-10-19T00:00:00+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "case",
+   "stage": "comparing",
+   "topic": "Synthetic monitoring and frontend observability",
+   "search": "synthetic monitoring frontend observability correlation",
+   "why": "Shows how combining synthetic monitoring with frontend observability solves real triage problems."
+  },
+  {
    "site": "Sumo Logic",
    "url": "https://www.sumologic.com/blog/building-ai-first-soc-customer-zero",
    "title": "Building an AI-first SOC: Sumo Logic’s customer zero strategy",
@@ -4133,20 +5153,6 @@
    "topic": "Sumo Logic trial and SIEM",
    "search": "free trial cloud SIEM observability",
    "why": "Removes friction from trial signup to convert evaluating prospects into customers."
-  },
-  {
-   "site": "Dynatrace",
-   "url": "https://www.dynatrace.com/news/blog/what-is-synthetic-monitoring/",
-   "title": "What is synthetic monitoring?",
-   "date": "2026-10-16T18:41:07+00:00",
-   "kind": "new",
-   "published": "2026-10-16T18:41:07+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "howto",
-   "stage": "learning",
-   "topic": "Synthetic monitoring explained",
-   "search": "what is synthetic monitoring",
-   "why": "Establishes Dynatrace as authority; captures early-stage research on monitoring technology."
   },
   {
    "site": "Dynatrace",
@@ -4402,20 +5408,6 @@
   },
   {
    "site": "Sumo Logic",
-   "url": "https://www.sumologic.com/videos/power-of-dojo-in-amazon-web-services",
-   "title": "The Power of DojoAI in Amazon Web Services",
-   "date": "2026-10-15T23:17:46+00:00",
-   "kind": "unknown",
-   "published": null,
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "news",
-   "stage": "learning",
-   "topic": "DojoAI security analytics platform AWS",
-   "search": "DojoAI Amazon Web Services security",
-   "why": "Showcases AI-powered security feature to educate early-stage prospects on capabilities."
-  },
-  {
-   "site": "Sumo Logic",
    "url": "https://www.sumologic.com/solutions/threat-detection",
    "title": "Threat detection, investigation, and response | tdir",
    "date": "2026-10-15T23:10:22+00:00",
@@ -4511,48 +5503,6 @@
    "topic": "DojoAI agents for security operations",
    "search": "AI agents for security cloud operations",
    "why": "Announces new agentic AI capabilities to influence security ops buyers considering solutions."
-  },
-  {
-   "site": "Sumo Logic",
-   "url": "https://www.sumologic.com/newsroom/sumo-logic-brings-comprehensive-visibility-across-claude-ecosystem-via-new-integration-with-claude-compliance-api",
-   "title": "Sumo Logic Brings Comprehensive Visibility Across Claude Ecosystem via New Integration with the Claude Compliance API",
-   "date": "2026-10-15T22:42:37+00:00",
-   "kind": "bulk",
-   "published": "2026-05-21T17:05:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "news",
-   "stage": "customers",
-   "topic": "Claude Compliance API integration",
-   "search": "Sumo Logic Claude Compliance API integration",
-   "why": "Announces new feature enabling existing customers to monitor AI tool compliance."
-  },
-  {
-   "site": "Sumo Logic",
-   "url": "https://www.sumologic.com/newsroom/sumo-logic-accelerates-agentic-ai-platform-with-new-executive-leadership",
-   "title": "Sumo Logic Accelerates Agentic AI Platform with New Executive Leadership",
-   "date": "2026-10-15T22:38:44+00:00",
-   "kind": "bulk",
-   "published": "2026-07-28T12:55:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "news",
-   "stage": "customers",
-   "topic": "Executive leadership appointment agentic AI",
-   "search": "Sumo Logic new CEO executive leadership",
-   "why": "Demonstrates leadership continuity and AI strategy to reassure existing customers and partners."
-  },
-  {
-   "site": "Sumo Logic",
-   "url": "https://www.sumologic.com/newsroom/sumo-logic-academy-expands-certification-program-to-improve-critical-skills-for-devsecops-teams",
-   "title": "Sumo Logic Academy Expands Certification Program to Improve Critical Skills for Security and Operations Teams",
-   "date": "2026-10-15T22:35:36+00:00",
-   "kind": "bulk",
-   "published": "2025-10-07T12:39:57+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "news",
-   "stage": "customers",
-   "topic": "Sumo Logic Academy certification program",
-   "search": "Sumo Logic Academy certification program",
-   "why": "Announces expanded certification program to keep customers trained and engaged."
   },
   {
    "site": "Dynatrace",
@@ -4695,20 +5645,6 @@
    "why": "Keeps existing customers informed of latest product features and improvements."
   },
   {
-   "site": "Grafana Labs",
-   "url": "https://grafana.com/blog/coverage-first-or-cost-first-two-ways-to-automatically-apply-adaptive-metrics-recommendations/",
-   "title": "Coverage-first or cost-first: two ways to automatically apply Adaptive Metrics' recommendations  | Grafana Labs",
-   "date": "2026-10-15T00:00:00+00:00",
-   "kind": "new",
-   "published": "2026-10-15T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "news",
-   "stage": "customers",
-   "topic": "Adaptive Metrics auto-apply modes",
-   "search": "Adaptive Metrics coverage-first cost-first",
-   "why": "Announces new feature release to existing Grafana customers using Adaptive Metrics."
-  },
-  {
    "site": "Sumo Logic",
    "url": "https://www.sumologic.com/newsroom/securityinfowatch-sumo-logic-names-chris-malone-ceo-conor-burns-cfo-to-lead-next-phase-of-ai-platform-growth",
    "title": "SecurityInfoWatch | Sumo Logic Names Chris Malone CEO, Conor Burns CFO to Lead Next Phase of AI Platform Growth",
@@ -4805,34 +5741,6 @@
    "topic": "Business observability financial services",
    "search": "business observability financial services monitoring",
    "why": "Shows how Dynatrace solved real banking process visibility challenges, convincing buyers it handles complex financial workflows."
-  },
-  {
-   "site": "New Relic",
-   "url": "https://newrelic.com/blog/news/anthropic-otel-ai-observability",
-   "title": "Claude Platform Tracing in New Relic",
-   "date": "2026-10-14T00:00:00+00:00",
-   "kind": "new",
-   "published": "2026-10-14T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "news",
-   "stage": "learning",
-   "topic": "Claude Platform tracing integration",
-   "search": "Claude Platform tracing New Relic observability",
-   "why": "Announces native OpenTelemetry support for Claude agents in New Relic."
-  },
-  {
-   "site": "Grafana Labs",
-   "url": "https://grafana.com/blog/visual-playback-of-the-user-journey-introducing-session-replay-in-grafana-cloud-frontend-observability/",
-   "title": "Visual playback of the user journey: Introducing Session Replay in Grafana Cloud Frontend Observability | Grafana Labs",
-   "date": "2026-10-14T00:00:00+00:00",
-   "kind": "new",
-   "published": "2026-10-14T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "news",
-   "stage": "customers",
-   "topic": "Session Replay frontend observability feature",
-   "search": "Session Replay Grafana Cloud Frontend Observability",
-   "why": "Announces Session Replay feature launch to existing Grafana Cloud customers."
   },
   {
    "site": "Sumo Logic",
@@ -4947,20 +5855,6 @@
    "why": "Announces New Relic Ground Truth MCP Server for AI-assisted debugging and development workflow."
   },
   {
-   "site": "New Relic",
-   "url": "https://newrelic.com/blog/infrastructure-monitoring/new-relic-database-360-ga",
-   "title": "Eliminate the Database War Room with New Relic Database 360",
-   "date": "2026-10-13T00:00:00+00:00",
-   "kind": "new",
-   "published": "2026-10-13T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "news",
-   "stage": "customers",
-   "topic": "Database 360 general availability",
-   "search": "New Relic Database 360 announcement",
-   "why": "Announces new Database 360 feature to existing users and prospects researching database observability capabilities."
-  },
-  {
    "site": "Sumo Logic",
    "url": "https://www.sumologic.com/vs/splunk",
    "title": "Splunk vs Sumo Logic",
@@ -5071,34 +5965,6 @@
    "topic": "New Relic product updates June 2026",
    "search": "New Relic updates June 2026",
    "why": "Keeps existing customers informed of latest platform features and improvements."
-  },
-  {
-   "site": "Grafana Labs",
-   "url": "https://grafana.com/blog/take-grafana-labs-5th-annual-observability-survey/",
-   "title": "Take Grafana Labs' 5th annual Observability Survey | Grafana Labs",
-   "date": "2026-10-08T00:00:00+00:00",
-   "kind": "new",
-   "published": "2026-10-08T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "research",
-   "stage": "learning",
-   "topic": "Observability survey industry trends",
-   "search": "observability survey 2026 industry trends",
-   "why": "Builds authority by conducting large community survey on observability practices."
-  },
-  {
-   "site": "Grafana Labs",
-   "url": "https://grafana.com/blog/manage-your-opentelemetry-collectors-with-fleet-management-in-grafana-cloud/",
-   "title": "Manage your OpenTelemetry Collectors with Fleet Management in Grafana Cloud | Grafana Labs",
-   "date": "2026-10-08T00:00:00+00:00",
-   "kind": "new",
-   "published": "2026-10-08T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "news",
-   "stage": "customers",
-   "topic": "OpenTelemetry collector fleet management",
-   "search": "manage OpenTelemetry collectors fleet management",
-   "why": "Announces OpAMP support for existing OTel users, reducing migration friction to Grafana."
   },
   {
    "site": "Grafana Labs",
@@ -5228,20 +6094,6 @@
   },
   {
    "site": "New Relic",
-   "url": "https://newrelic.com/blog/ai/observability-built-for-humans-ai-changes-everything",
-   "title": "Observability Was Built for Humans. AI Changes Everything.",
-   "date": "2026-10-06T00:00:00+00:00",
-   "kind": "new",
-   "published": "2026-10-06T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "opinion",
-   "stage": "learning",
-   "topic": "AI reshaping observability and operations",
-   "search": "AI observability autonomous operations",
-   "why": "Establishes New Relic as thought leader on AI's transformative impact on observability practices."
-  },
-  {
-   "site": "New Relic",
    "url": "https://newrelic.com/blog/news/introducing-advanced-apm-connecting-telemetry-to-business-outcomes",
    "title": "Introducing Advanced APM",
    "date": "2026-10-06T00:00:00+00:00",
@@ -5253,20 +6105,6 @@
    "topic": "Advanced APM telemetry business outcomes",
    "search": "advanced APM application performance monitoring",
    "why": "Promotes new Advanced APM feature solving critical observability pain points."
-  },
-  {
-   "site": "New Relic",
-   "url": "https://newrelic.com/blog/news/introducing-ai-observability-for-opentelemetry",
-   "title": "Introducing AI Observability for OpenTelemetry",
-   "date": "2026-10-06T00:00:00+00:00",
-   "kind": "new",
-   "published": "2026-10-06T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "news",
-   "stage": "learning",
-   "topic": "AI observability OpenTelemetry integration",
-   "search": "OpenTelemetry AI observability monitoring",
-   "why": "Announces new AI observability feature for OpenTelemetry to establish thought leadership."
   },
   {
    "site": "New Relic",
@@ -5379,20 +6217,6 @@
    "topic": "SIEM real-time threat detection",
    "search": "best SIEM software cloud native",
    "why": "Targets buyers evaluating SIEM platforms with AI-powered threat detection capabilities."
-  },
-  {
-   "site": "New Relic",
-   "url": "https://newrelic.com/blog/observability/incident-management-tools",
-   "title": "9 Incident Management Tools Behind Faster MTTR",
-   "date": "2026-10-05T00:00:00+00:00",
-   "kind": "new",
-   "published": "2026-10-05T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "compare",
-   "stage": "comparing",
-   "topic": "incident management tools comparison",
-   "search": "incident management tools for DevOps teams",
-   "why": "Captures teams evaluating incident management solutions against multiple competitors."
   },
   {
    "site": "Sumo Logic",
@@ -5591,20 +6415,6 @@
    "why": "Guides buyers through SIEM evaluation criteria to position Sumo Logic favorably."
   },
   {
-   "site": "New Relic",
-   "url": "https://newrelic.com/blog/observability/pagerduty-alternatives",
-   "title": "7 PagerDuty Alternatives for Modern Incident Response Teams",
-   "date": "2026-10-02T00:00:00+00:00",
-   "kind": "new",
-   "published": "2026-10-02T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "compare",
-   "stage": "comparing",
-   "topic": "PagerDuty alternatives for incident response",
-   "search": "PagerDuty alternatives incident management",
-   "why": "Positions New Relic as a complementary detection layer to on-call tools, capturing buyers evaluating incident response solutions."
-  },
-  {
    "site": "Elastic Observability",
    "url": "https://www.elastic.co/observability/blog/total-economic-impact-of-elastic-observability-2026",
    "title": "From reactive to resilient: Findings from the Total Economic Impact of Elastic Observability 2026",
@@ -5633,6 +6443,20 @@
    "why": "Demonstrates real-world security threat detection value versus competitive SIEM solutions."
   },
   {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/opentelemetry-report/",
+   "title": "OpenTelemetry: Challenges, priorities, adoption patterns, and solutions | Grafana Labs",
+   "date": "2026-10-01T14:22:22+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "research",
+   "stage": "learning",
+   "topic": "OpenTelemetry adoption challenges solutions",
+   "search": "OpenTelemetry adoption challenges solutions",
+   "why": "Establishes thought leadership in observability standards and industry trends."
+  },
+  {
    "site": "Elastic Observability",
    "url": "https://www.elastic.co/observability/blog/byok-existing-deployments-elastic-cloud-hosted",
    "title": "Bring your own key to existing Elastic Cloud deployments",
@@ -5651,7 +6475,7 @@
    "url": "https://www.sumologic.com/blog/casb-vs-siem-saas-security",
    "title": "CASB vs. SIEM for SaaS security",
    "date": "2026-09-30T20:29:46+00:00",
-   "kind": "new",
+   "kind": "unknown",
    "published": "2026-09-30T20:29:46+00:00",
    "first_seen": "2026-10-20T02:31:19+00:00",
    "type": "compare",
@@ -5665,7 +6489,7 @@
    "url": "https://newrelic.com/blog/news/blogheadless-observability-autonomous-operations",
    "title": "Headless Observability: The Next Evolution of Autonomous Operations",
    "date": "2026-09-30T00:00:00+00:00",
-   "kind": "new",
+   "kind": "unknown",
    "published": "2026-09-30T00:00:00+00:00",
    "first_seen": "2026-10-20T02:31:19+00:00",
    "type": "opinion",
@@ -5679,7 +6503,7 @@
    "url": "https://grafana.com/blog/tempo-3-1-release-all-the-latest-features/",
    "title": "Tempo 3.1 release: new features for Kafka, TraceQL metrics updates, trace redaction, and more | Grafana Labs",
    "date": "2026-09-30T00:00:00+00:00",
-   "kind": "new",
+   "kind": "unknown",
    "published": "2026-09-30T00:00:00+00:00",
    "first_seen": "2026-10-20T02:31:19+00:00",
    "type": "news",
@@ -5735,7 +6559,7 @@
    "url": "https://newrelic.com/blog/observability/operational-understanding-autonomous-operations",
    "title": "Creating Operational Understanding for Autonomous Operations",
    "date": "2026-09-29T00:00:00+00:00",
-   "kind": "new",
+   "kind": "unknown",
    "published": "2026-09-29T00:00:00+00:00",
    "first_seen": "2026-10-20T02:31:19+00:00",
    "type": "opinion",
@@ -5749,7 +6573,7 @@
    "url": "https://newrelic.com/blog/observability/cut-carbon-cut-costs-achieve-esg-compliance-with-new-relic-cloud-cost-intelligence",
    "title": "Cut Carbon, Cut Costs: New Relic Cloud Cost Intelligence",
    "date": "2026-09-29T00:00:00+00:00",
-   "kind": "new",
+   "kind": "unknown",
    "published": "2026-09-29T00:00:00+00:00",
    "first_seen": "2026-10-20T02:31:19+00:00",
    "type": "case",
@@ -5913,20 +6737,6 @@
    "why": "Establishes New Relic as thought leader using original research data on industry trends."
   },
   {
-   "site": "New Relic",
-   "url": "https://newrelic.com/blog/observability/how-to-build-an-sre-agent-that-actually-works-without-blowing-the-token-budget",
-   "title": "How to Build an SRE Agent That Actually Works (Without Blowing the Token Budget)",
-   "date": "2026-09-22T00:00:00+00:00",
-   "kind": "unknown",
-   "published": "2026-09-22T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "howto",
-   "stage": "learning",
-   "topic": "Build SRE agent with AI",
-   "search": "how to build SRE agent without high token costs",
-   "why": "Shows how AI agents can reduce operational toil and alert fatigue for SRE teams."
-  },
-  {
    "site": "Sumo Logic",
    "url": "https://www.sumologic.com/events/aws-reinvent",
    "title": "AWS re:Invent",
@@ -5967,230 +6777,6 @@
    "topic": "Data Pipelines AI-first platform enhancement",
    "search": "Sumo Logic Data Pipelines cost control",
    "why": "Demonstrates platform evolution to existing customers and prospect evaluators."
-  },
-  {
-   "site": "Grafana Labs",
-   "url": "https://grafana.com/oss/grafana/",
-   "title": "Grafana OSS | Leading observability tool for visualizations & dashboards",
-   "date": "2026-09-17T11:27:55+00:00",
-   "kind": "unknown",
-   "published": null,
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "landing",
-   "stage": "learning",
-   "topic": "Grafana open source observability tool",
-   "search": "open source monitoring dashboards",
-   "why": "Introduces Grafana OSS to prospects researching observability and monitoring solutions."
-  },
-  {
-   "site": "Grafana Labs",
-   "url": "https://grafana.com/load-testing/types-of-load-testing/",
-   "title": "Types of load testing | Grafana Labs",
-   "date": "2026-09-17T11:27:55+00:00",
-   "kind": "unknown",
-   "published": null,
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "list",
-   "stage": "learning",
-   "topic": "Types of load testing",
-   "search": "types of load testing",
-   "why": "Educates prospects on load testing fundamentals and Grafana k6 capabilities."
-  },
-  {
-   "site": "Grafana Labs",
-   "url": "https://grafana.com/load-testing/load-testing-tools/",
-   "title": "Load testing tools | Grafana Labs",
-   "date": "2026-09-17T11:27:55+00:00",
-   "kind": "unknown",
-   "published": null,
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "howto",
-   "stage": "learning",
-   "topic": "load testing tools comparison guide",
-   "search": "best load testing tools comparison",
-   "why": "Educates early-stage users researching load testing solutions and tool selection criteria."
-  },
-  {
-   "site": "Grafana Labs",
-   "url": "https://grafana.com/load-testing/load-testing-examples/",
-   "title": "Load testing examples | Grafana Labs",
-   "date": "2026-09-17T11:27:55+00:00",
-   "kind": "unknown",
-   "published": null,
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "howto",
-   "stage": "learning",
-   "topic": "Load testing examples and best practices",
-   "search": "load testing examples tutorial",
-   "why": "Educates prospects on load testing fundamentals and promotes Grafana k6 tool."
-  },
-  {
-   "site": "Grafana Labs",
-   "url": "https://grafana.com/success/alter-domus/",
-   "title": "How Alter Domus unified observability and improved their AI-powered applications with Grafana Cloud | Grafana Labs",
-   "date": "2026-09-17T11:27:55+00:00",
-   "kind": "unknown",
-   "published": null,
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "case",
-   "stage": "buying",
-   "topic": "Unified observability with Grafana Cloud",
-   "search": "observability platform consolidation case study",
-   "why": "Demonstrates cost savings and performance gains to convince prospects to consolidate tools."
-  },
-  {
-   "site": "Grafana Labs",
-   "url": "https://grafana.com/success/datasnipper/",
-   "title": "How DataSnipper scaled observability for its SaaS transition with Grafana Cloud | Grafana Labs",
-   "date": "2026-09-17T11:27:55+00:00",
-   "kind": "unknown",
-   "published": null,
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "case",
-   "stage": "buying",
-   "topic": "DataSnipper Grafana Cloud observability",
-   "search": "how to scale observability SaaS platform",
-   "why": "Demonstrates real-world results to convince SaaS buyers that Grafana Cloud solves scale and performance problems."
-  },
-  {
-   "site": "Grafana Labs",
-   "url": "https://grafana.com/success/riverisland/",
-   "title": "How River Island unified end-to-end retail observability while reducing costs with Grafana Cloud | Grafana Labs",
-   "date": "2026-09-17T11:27:55+00:00",
-   "kind": "unknown",
-   "published": null,
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "case",
-   "stage": "buying",
-   "topic": "Retail observability cost reduction",
-   "search": "unified observability platform retail",
-   "why": "Demonstrates Grafana Cloud's value through a major retail brand's real-world success and ROI."
-  },
-  {
-   "site": "Grafana Labs",
-   "url": "https://grafana.com/resources/log-monitoring/",
-   "title": "Log monitoring resources | Grafana Labs",
-   "date": "2026-09-17T11:27:55+00:00",
-   "kind": "unknown",
-   "published": null,
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "landing",
-   "stage": "learning",
-   "topic": "Log monitoring solutions",
-   "search": "log monitoring tools solutions",
-   "why": "Educates prospects on log monitoring benefits and Grafana's products while building authority."
-  },
-  {
-   "site": "New Relic",
-   "url": "https://newrelic.com/events/2026-09-16/proactively-monitor-availability-and-performance-with-new-relic-synthetics-emea",
-   "title": "[On demand] Proactively monitor availability and performance with New Relic Synthetics (EMEA)",
-   "date": "2026-09-17T09:21:00+00:00",
-   "kind": "unknown",
-   "published": null,
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "howto",
-   "stage": "learning",
-   "topic": "Synthetic monitoring availability performance",
-   "search": "synthetic monitoring track website performance",
-   "why": "Educates users on using New Relic Synthetics for proactive monitoring and alerting."
-  },
-  {
-   "site": "New Relic",
-   "url": "https://newrelic.com/blog/log/centralized-log-management",
-   "title": "Centralized Log Management: A Comprehensive Guide for Engineers",
-   "date": "2026-09-17T00:00:00+00:00",
-   "kind": "unknown",
-   "published": "2026-09-17T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "howto",
-   "stage": "learning",
-   "topic": "Centralized log management for engineers",
-   "search": "centralized log management guide",
-   "why": "Educates engineers on CLM benefits and implementation to build awareness of New Relic's log management capabilities."
-  },
-  {
-   "site": "Sumo Logic",
-   "url": "https://www.sumologic.com/blog/sumo-logic-mcp-server-ai-clients",
-   "title": "Sumo Logic MCP server: bringing SIEM and log data into Claude and other AI clients",
-   "date": "2026-09-16T19:41:05+00:00",
-   "kind": "unknown",
-   "published": "2026-09-16T19:41:05+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "news",
-   "stage": "learning",
-   "topic": "Sumo Logic MCP server AI integration",
-   "search": "MCP server AI clients SIEM log data",
-   "why": "Announces new MCP server integration connecting SIEM/logs to Claude and other AI platforms."
-  },
-  {
-   "site": "New Relic",
-   "url": "https://newrelic.com/blog/log/how-to-manage-an-application-log",
-   "title": "Application Logging: A Complete Guide to Managing Logs in 2026",
-   "date": "2026-09-16T00:00:00+00:00",
-   "kind": "unknown",
-   "published": "2026-09-16T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "howto",
-   "stage": "learning",
-   "topic": "Application logging best practices and tools",
-   "search": "how to manage application logs",
-   "why": "Educates prospect on log management fundamentals, positioning New Relic's platform as the solution."
-  },
-  {
-   "site": "Sumo Logic",
-   "url": "https://www.sumologic.com/podcast/tokenpocalypse-who-pays-when-ai-bill-comes-due",
-   "title": "Tokenpocalypse: Who pays when the AI bill comes due",
-   "date": "2026-09-15T16:00:00+00:00",
-   "kind": "unknown",
-   "published": null,
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "opinion",
-   "stage": "learning",
-   "topic": "AI costs and token economics",
-   "search": "AI infrastructure costs token pricing",
-   "why": "Establishes thought leadership on emerging AI cost challenges affecting monitoring and observability decisions."
-  },
-  {
-   "site": "Grafana Labs",
-   "url": "https://grafana.com/blog/digital-experience-monitoring-with-grafana-cloud-session-replay-synthetic-checks-and-faster-investigations/",
-   "title": "Digital Experience Monitoring with Grafana Cloud: Session Replay, synthetic checks, and faster investigations | Grafana Labs",
-   "date": "2026-09-14T00:00:00+00:00",
-   "kind": "unknown",
-   "published": "2026-09-14T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "news",
-   "stage": "learning",
-   "topic": "Digital experience monitoring features",
-   "search": "digital experience monitoring Grafana Cloud",
-   "why": "Announces new DEM features to educate users on capabilities and benefits."
-  },
-  {
-   "site": "New Relic",
-   "url": "https://newrelic.com/blog/observability/how-standards-get-adopted-otel-and-platform-engineering",
-   "title": "How Standards Get Adopted: OTel and Platform Engineering",
-   "date": "2026-09-11T00:00:00+00:00",
-   "kind": "unknown",
-   "published": "2026-09-11T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "opinion",
-   "stage": "learning",
-   "topic": "OpenTelemetry adoption platform engineering",
-   "search": "how to adopt OpenTelemetry standards",
-   "why": "Establishes thought leadership on observability trends and OpenTelemetry adoption strategies."
-  },
-  {
-   "site": "New Relic",
-   "url": "https://newrelic.com/events/2026-08-11/observability-for-ai-agentic-performance-and-business-impact-on-demand",
-   "title": "Observability for AI, agentic performance, and business impact (on demand)",
-   "date": "2026-09-10T17:13:00+00:00",
-   "kind": "unknown",
-   "published": null,
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "landing",
-   "stage": "learning",
-   "topic": "Observability for AI and agentic performance",
-   "search": "observability for AI agents monitoring",
-   "why": "Educates prospects on AI observability capabilities while promoting free trial signup and product access."
   },
   {
    "site": "Dynatrace",
@@ -6278,6 +6864,20 @@
   },
   {
    "site": "Grafana Labs",
+   "url": "https://grafana.com/blog/smarter-onboarding-and-planning-with-grafana-assistant-how-to-ensure-observability-is-baked-in-from-the-start/",
+   "title": "Smarter onboarding and planning with Grafana Assistant: How to ensure observability is baked in from the start | Grafana Labs",
+   "date": "2026-07-27T00:00:00+00:00",
+   "kind": "unknown",
+   "published": "2026-07-27T00:00:00+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Observability planning with AI assistant",
+   "search": "how to implement observability early planning",
+   "why": "Shows how Grafana Assistant helps teams plan observability from start, educating prospects on methodology."
+  },
+  {
+   "site": "Grafana Labs",
    "url": "https://grafana.com/blog/grafana-labs-named-a-leader-again-in-the-2026-gartner-magic-quadrant-for-observability-platforms/",
    "title": "Grafana Labs named a Leader again in the 2026 Gartner® Magic Quadrant™ for Observability Platforms | Grafana Labs",
    "date": "2026-07-15T00:00:00+00:00",
@@ -6305,6 +6905,20 @@
    "why": "Educates engineers on hidden performance issues and New Relic's detection solution."
   },
   {
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/blog/stop-switching-tools-to-find-answers-grafana-assistant-now-works-across-30-data-sources/",
+   "title": "Stop switching tools to find answers: Grafana Assistant now works across 30+ data sources | Grafana Labs",
+   "date": "2026-07-14T00:00:00+00:00",
+   "kind": "unknown",
+   "published": "2026-07-14T00:00:00+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "news",
+   "stage": "comparing",
+   "topic": "Grafana Assistant works with 30+ data sources",
+   "search": "grafana assistant data sources ai observability",
+   "why": "Showcases new AI capability to users comparing unified monitoring solutions."
+  },
+  {
    "site": "New Relic",
    "url": "https://newrelic.com/blog/news/introducing-ai-coding-observability",
    "title": "Introducing New Relic Preflight for AI Coding Observability",
@@ -6319,18 +6933,18 @@
    "why": "Announces new Preflight product for monitoring AI developer assistants efficiently."
   },
   {
-   "site": "New Relic",
-   "url": "https://newrelic.com/blog/infrastructure-monitoring/kubernetes-observability",
-   "title": "7 Essential Best Practices for Kubernetes Observability",
-   "date": "2026-06-05T00:00:00+00:00",
-   "kind": "updated",
-   "published": "2020-11-23T00:00:00+00:00",
+   "site": "Grafana Labs",
+   "url": "https://grafana.com/blog/automatically-discover-and-remediate-root-causes-with-grafana-assistant-investigations/",
+   "title": "Automatically discover and remediate root causes with Grafana Assistant Investigations | Grafana Labs",
+   "date": "2026-06-09T00:00:00+00:00",
+   "kind": "unknown",
+   "published": "2026-06-09T00:00:00+00:00",
    "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "howto",
-   "stage": "learning",
-   "topic": "Kubernetes observability best practices",
-   "search": "Kubernetes observability best practices",
-   "why": "Educates users on Kubernetes observability fundamentals and builds trust through practical guidance."
+   "type": "news",
+   "stage": "customers",
+   "topic": "Grafana Assistant Investigations root cause",
+   "search": "Grafana Assistant Investigations root cause detection",
+   "why": "Showcases newly GA feature to existing Grafana customers seeking automation capabilities."
   },
   {
    "site": "New Relic",
@@ -6345,20 +6959,6 @@
    "topic": "Kubernetes monitoring tools comparison",
    "search": "best Kubernetes monitoring tools",
    "why": "Positions New Relic as top unified platform against open-source and competing solutions."
-  },
-  {
-   "site": "New Relic",
-   "url": "https://newrelic.com/blog/news/microsoft-build-2026",
-   "title": "New Relic and Microsoft: Building for Agentic Era",
-   "date": "2026-06-02T00:00:00+00:00",
-   "kind": "unknown",
-   "published": "2026-06-02T00:00:00+00:00",
-   "first_seen": "2026-10-20T02:31:19+00:00",
-   "type": "news",
-   "stage": "buying",
-   "topic": "New Relic Microsoft Azure integration AI",
-   "search": "New Relic Microsoft Build 2026 observability",
-   "why": "Announces AI observability partnership to influence Azure-based developers considering tools."
   },
   {
    "site": "Grafana Labs",
@@ -6796,6 +7396,20 @@
   },
   {
    "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/hub/detail/agentic-workflows/",
+   "title": "Agentic Workflows monitoring & observability | Dynatrace Hub",
+   "date": "2020-08-14T07:46:16+00:00",
+   "kind": "bulk",
+   "published": "2020-08-14T07:46:16+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "Agentic workflows monitoring observability",
+   "search": "agentic workflows monitoring orchestration automation",
+   "why": "Showcases AI/agentic automation capabilities to prospects evaluating operational solutions."
+  },
+  {
+   "site": "Dynatrace",
    "url": "https://www.dynatrace.com/hub/detail/ai-and-llm-observability/",
    "title": "AI Observability monitoring & observability | Dynatrace Hub",
    "date": "2020-08-14T07:46:16+00:00",
@@ -6835,6 +7449,20 @@
    "topic": "Aruba AOS monitoring and observability",
    "search": "Aruba AOS monitoring observability",
    "why": "Promotes Dynatrace's specific monitoring capability for Aruba switches to drive trial signups."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/hub/detail/cisco-aciapic/",
+   "title": "Cisco ACI/APIC monitoring & observability | Dynatrace Hub",
+   "date": "2020-08-14T07:46:16+00:00",
+   "kind": "bulk",
+   "published": "2020-08-14T07:46:16+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Cisco ACI/APIC monitoring and observability",
+   "search": "Cisco ACI APIC monitoring",
+   "why": "Showcases native integration to convert Cisco ACI users into Dynatrace customers."
   },
   {
    "site": "Dynatrace",
@@ -6905,6 +7533,34 @@
    "topic": "Google App Engine monitoring integration",
    "search": "Google App Engine monitoring observability",
    "why": "Introduces Dynatrace's GCP integration capabilities to teams evaluating platform options."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/hub/detail/google-cloud-filestore/",
+   "title": "Google Cloud Filestore monitoring & observability | Dynatrace Hub",
+   "date": "2020-08-14T07:46:16+00:00",
+   "kind": "bulk",
+   "published": "2020-08-14T07:46:16+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Google Cloud Filestore monitoring",
+   "search": "Google Cloud Filestore monitoring",
+   "why": "Showcases Dynatrace's capability to monitor a specific cloud service, driving trial signups."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/hub/detail/google-cloud-firestore/",
+   "title": "Google Cloud Firestore monitoring & observability | Dynatrace Hub",
+   "date": "2020-08-14T07:46:16+00:00",
+   "kind": "bulk",
+   "published": "2020-08-14T07:46:16+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "Google Cloud Firestore monitoring",
+   "search": "Google Cloud Firestore monitoring observability",
+   "why": "Showcases Dynatrace's Firestore integration for cloud-native developers evaluating monitoring solutions."
   },
   {
    "site": "Dynatrace",
@@ -7146,6 +7802,20 @@
   },
   {
    "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/hub/detail/netapp-on-google-cloud/",
+   "title": "NetApp on Google Cloud monitoring & observability | Dynatrace Hub",
+   "date": "2020-08-14T07:46:16+00:00",
+   "kind": "bulk",
+   "published": "2020-08-14T07:46:16+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "NetApp Google Cloud monitoring observability",
+   "search": "NetApp Google Cloud monitoring observability",
+   "why": "Showcases Dynatrace's integration capability for NetApp on Google Cloud environments."
+  },
+  {
+   "site": "Dynatrace",
    "url": "https://www.dynatrace.com/hub/detail/nvidia-nim/",
    "title": "NVIDIA NIM monitoring & observability | Dynatrace Hub",
    "date": "2020-08-14T07:46:16+00:00",
@@ -7227,6 +7897,20 @@
    "topic": "Pinecone vector database monitoring",
    "search": "Pinecone monitoring observability",
    "why": "Attracts users exploring vector database visibility and AI observability solutions."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/hub/detail/quickstart/",
+   "title": "QuickStart monitoring & observability | Dynatrace Hub",
+   "date": "2020-08-14T07:46:16+00:00",
+   "kind": "bulk",
+   "published": "2020-08-14T07:46:16+00:00",
+   "first_seen": "2026-10-20T02:31:19+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "Dynatrace QuickStart hub",
+   "search": "Dynatrace QuickStart monitoring observability",
+   "why": "Showcases product features and free trial to attract new monitoring platform users."
   },
   {
    "site": "Dynatrace",
@@ -7395,6 +8079,34 @@
    "topic": "Snowflake monitoring and observability",
    "search": "Snowflake monitoring observability",
    "why": "Showcases Dynatrace's Snowflake integration to drive adoption and trials."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/hub/detail/vibeops/",
+   "title": "CloudThinker: Investigation Agents monitoring & observability | Dynatrace Hub",
+   "date": "2020-08-14T07:46:16+00:00",
+   "kind": "bulk",
+   "published": "2020-08-14T07:46:16+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "CloudThinker investigation agents",
+   "search": "AI investigation agents monitoring observability",
+   "why": "Showcases Dynatrace Hub partner integration to drive free trial signups."
+  },
+  {
+   "site": "Dynatrace",
+   "url": "https://www.dynatrace.com/hub/detail/juniper-mist/",
+   "title": "Juniper Mist monitoring & observability | Dynatrace Hub",
+   "date": "2020-08-14T07:46:16+00:00",
+   "kind": "bulk",
+   "published": "2020-08-14T07:46:16+00:00",
+   "first_seen": "2026-11-16T15:42:03+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Juniper Mist monitoring and observability",
+   "search": "monitor Juniper Mist networks",
+   "why": "Enable customers to monitor Juniper Mist infrastructure with Dynatrace's platform."
   }
  ],
  "history": [
@@ -7587,6 +8299,54 @@
      "updated": 7,
      "removed": 27,
      "pages": 1581
+    }
+   }
+  },
+  {
+   "week": "2026-W47",
+   "date": "2026-11-16T15:42:03+00:00",
+   "sites": {
+    "Datadog": {
+     "new": 31,
+     "updated": 0,
+     "removed": 2,
+     "pages": 2947
+    },
+    "New Relic": {
+     "new": 8,
+     "updated": 29,
+     "removed": 16,
+     "pages": 1306
+    },
+    "Dynatrace": {
+     "new": 58,
+     "updated": 17,
+     "removed": 4,
+     "pages": 3090
+    },
+    "Splunk": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 0
+    },
+    "Grafana Labs": {
+     "new": 16,
+     "updated": 21,
+     "removed": 0,
+     "pages": 2357
+    },
+    "Elastic Observability": {
+     "new": 48,
+     "updated": 0,
+     "removed": 14,
+     "pages": 80
+    },
+    "Sumo Logic": {
+     "new": 3,
+     "updated": 12,
+     "removed": 37,
+     "pages": 1572
     }
    }
   }
